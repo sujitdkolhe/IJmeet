@@ -5,17 +5,15 @@ import java.io.IOException;
 import java.text.SimpleDateFormat;
 
 import org.testng.ITestContext;
-import org.testng.ITestListener;
 import org.testng.ITestResult;
+import org.testng.TestListenerAdapter;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.Status;
-import com.aventstack.extentreports.markuputils.ExtentColor;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 
-public class TestListener implements ITestListener {
-
+public class Reporting extends TestListenerAdapter{
 	@Override
 	public void onTestStart(ITestResult result) {
 		System.out.println("On Test Start : " + result.getName());
@@ -87,5 +85,4 @@ public class TestListener implements ITestListener {
 		Constants.extent.flush();
 
 	}
-
 }

@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 import com.config.Constants;
 import com.config.TestListener;
 import com.ijmeet.pageobject.LoginPage;
-@Listeners(TestListener.class)
+//@Listeners(TestListener.class)
 public class LoginPageTest extends BaseClass {
 	@Test
 	public void tc_001() {
