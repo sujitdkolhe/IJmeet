@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="118010" started-at="2020-08-24T13:53:20Z" finished-at="2020-08-24T13:55:18Z">
+  <suite name="Default suite" duration-ms="68258" started-at="2020-08-25T12:21:17Z" finished-at="2020-08-25T12:22:25Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="118010" started-at="2020-08-24T13:53:20Z" finished-at="2020-08-24T13:55:18Z">
-      <class name="com.ijmeet.testcases.LoginPageTest">
-        <test-method status="PASS" signature="baseTest()[pri:0, instance:com.ijmeet.testcases.LoginPageTest@60d8c9b7]" name="baseTest" is-config="true" duration-ms="98034" started-at="2020-08-24T13:53:25Z" finished-at="2020-08-24T13:55:03Z">
+    <test name="Default test" duration-ms="68258" started-at="2020-08-25T12:21:17Z" finished-at="2020-08-25T12:22:25Z">
+      <class name="com.ijmeet.testcases.SignInTest">
+        <test-method status="PASS" signature="baseTest()[pri:0, instance:com.ijmeet.testcases.SignInTest@5025a98f]" name="baseTest" is-config="true" duration-ms="54175" started-at="2020-08-25T12:21:18Z" finished-at="2020-08-25T12:22:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- baseTest -->
-        <test-method status="PASS" signature="tc_001()[pri:0, instance:com.ijmeet.testcases.LoginPageTest@60d8c9b7]" name="tc_001" duration-ms="3532" started-at="2020-08-24T13:55:03Z" finished-at="2020-08-24T13:55:06Z">
+        <test-method status="PASS" signature="tc_001()[pri:0, instance:com.ijmeet.testcases.SignInTest@5025a98f]" name="tc_001" duration-ms="3412" started-at="2020-08-25T12:22:12Z" finished-at="2020-08-25T12:22:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc_001 -->
-        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.ijmeet.testcases.LoginPageTest@60d8c9b7]" name="closeDriver" is-config="true" duration-ms="8385" started-at="2020-08-24T13:55:09Z" finished-at="2020-08-24T13:55:18Z">
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.ijmeet.testcases.SignInTest@5025a98f]" name="closeDriver" is-config="true" duration-ms="5800" started-at="2020-08-25T12:22:19Z" finished-at="2020-08-25T12:22:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
-      </class> <!-- com.ijmeet.testcases.LoginPageTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- com.ijmeet.testcases.SignInTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
