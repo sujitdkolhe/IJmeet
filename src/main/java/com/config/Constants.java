@@ -9,11 +9,9 @@ import org.json.simple.JSONObject;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
-
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.ijmeet.pageobject.SignInPage;
-
 import ru.yandex.qatools.ashot.AShot;
 
 public class Constants {
@@ -34,4 +32,5 @@ public class Constants {
 	public static Logger logger;
 	public static SignInPage signInPage;
 	public static AShot ashot;
+
 }
