@@ -2,6 +2,7 @@ package com.config;
 
 import java.io.File;
 import java.io.IOException;
+import java.text.SimpleDateFormat;
 
 import org.testng.ITestContext;
 import org.testng.ITestListener;
@@ -10,7 +11,6 @@ import org.testng.ITestResult;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.Status;
-import com.aventstack.extentreports.markuputils.ExtentColor;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 
 public class TestListener implements ITestListener {
@@ -53,7 +53,7 @@ public class TestListener implements ITestListener {
 
 	@Override
 	public void onTestSkipped(ITestResult result) {
-		System.out.println("On test Skipped " +result.getName());
+		System.out.println("On test Skipped " + result.getName());
 		Constants.test.log(Status.SKIP, "Skipped Test Case: " + result.getName());
 
 	}
@@ -66,9 +66,11 @@ public class TestListener implements ITestListener {
 
 	@Override
 	public void onStart(ITestContext context) {
+		String dateTimeFormat = new SimpleDateFormat("yyyy-MM-dd_hh_mm_ss").format(new java.util.Date());
 		// Start Reporters
 		ExtentHtmlReporter reporter = new ExtentHtmlReporter(
-				new File(System.getProperty("user.dir") + "/Report/ExtentsReport.html"));
+				new File(System.getProperty("user.dir")+ "/Report/ExtentsReport" + " " + dateTimeFormat
+						+ ".html"));
 		// create ExtentReports and attach reporter
 		Constants.extent = new ExtentReports();
 		Constants.extent.attachReporter(reporter);

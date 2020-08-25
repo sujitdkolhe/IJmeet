@@ -5,12 +5,11 @@ import org.testng.annotations.Test;
 
 import com.config.Constants;
 import com.config.TestListener;
-import com.ijmeet.pageobject.LoginPage;
 @Listeners(TestListener.class)
-public class LoginPageTest extends BaseClass {
+public class SignInTest extends BaseClass {
 	@Test
 	public void tc_001() {
-		Constants.loginpage.clickOnSign();
+		Constants.signInPage.clickOnSign();
 		Constants.logger.info("Verify Sign In link");
 		Constants.extent.createTest("tc_001 Sign In link");
 	}

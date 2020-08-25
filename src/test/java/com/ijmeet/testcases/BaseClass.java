@@ -7,7 +7,7 @@ import org.testng.annotations.BeforeMethod;
 import com.config.Constants;
 import com.config.Keywords;
 import com.config.Utility;
-import com.ijmeet.pageobject.LoginPage;
+import com.ijmeet.pageobject.SignInPage;
 
 public class BaseClass {
 	static String propertiesFilepath = "./Configuration\\ObjectRepo.properties";
@@ -20,7 +20,7 @@ public class BaseClass {
 		Keywords.loggerInfo("entering appliction url and maximizing browser");
 		Constants.logger = Logger.getLogger(BaseClass.class);
 		PropertyConfigurator.configure("log4j.properties");
-		Constants.loginpage=new LoginPage();
+		Constants.signInPage=new SignInPage();
 	}
 
 	@AfterMethod
