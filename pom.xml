@@ -3,6 +3,34 @@
   <groupId>IJmeet</groupId>
   <artifactId>IJmeet</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <properties>
+        <maven-compiler-plugin-version>2.3.2</maven-compiler-plugin-version>
+		<suiteXmlFile>src/main/resources/testng.xml</suiteXmlFile>
+  <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <java.version>1.8</java.version>
+        <maven.compiler.target>${java.version}</maven.compiler.target>
+        <maven.compiler.source>${java.version}</maven.compiler.source>
+        </properties>
+        <build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-site-plugin</artifactId>
+				<configuration>
+					<locales>es</locales>
+				</configuration>
+			</plugin>
+    <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>${maven-compiler-plugin-version}</version>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+		</plugins>
+	</build>
 <dependencies>
 		<!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
 		<dependency>
