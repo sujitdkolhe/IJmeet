@@ -32,10 +32,7 @@ public class Constants {
 	public static Logger logger;
 	public static SignInPage signInPage;
 	public static AShot ashot;
-<<<<<<< HEAD
 	
-}	
-=======
-
 }
->>>>>>> 37d49c9cb2dbb9238b1cb4ad24499a970b745df1
+//}
+//>>>>>>> 37d49c9cb2dbb9238b1cb4ad24499a970b745df1

@@ -31,10 +31,9 @@
 			</plugin>
 		</plugins>
 	</build>
-<<<<<<< HEAD
 
-=======
->>>>>>> 37d49c9cb2dbb9238b1cb4ad24499a970b745df1
+
+
 	<dependencies>
 		<!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
 		<dependency>
@@ -137,18 +136,18 @@
 		</dependency>
 
 
-		<!-- https://mvnrepository.com/artifact/info.cukes/cucumber-junit -->
+		<!-- https://mvnrepository.com/artifact/info.cukes/cucumber-junit 
 		<dependency>
 			<groupId>info.cukes</groupId>
 			<artifactId>cucumber-junit</artifactId>
-<<<<<<< HEAD
-			<version>6.4.0</version>
-			<!-- <scope>test</scope> -->
-=======
-			<version>1.2.5</version>
->>>>>>> 37d49c9cb2dbb9238b1cb4ad24499a970b745df1
+			<version>6.4.0</version>			
+		</dependency>-->
+		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-junit -->
+		<dependency>
+		    <groupId>io.cucumber</groupId>
+		    <artifactId>cucumber-junit</artifactId>
+		    <version>6.4.0</version>		    
 		</dependency>
-
 		<!-- https://mvnrepository.com/artifact/info.cukes/cucumber-jvm-deps -->
 		<dependency>
 			<groupId>info.cukes</groupId>
@@ -162,23 +161,19 @@
 			<artifactId>cucumber-reporting</artifactId>
 			<version>5.3.0</version>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/info.cukes/gherkin -->
+		<!-- https://mvnrepository.com/artifact/info.cukes/gherkin
 		<dependency>
 			<groupId>info.cukes</groupId>
 			<artifactId>gherkin</artifactId>
-<<<<<<< HEAD
-			<version>14.2.0</version>
-		</dependency>	
-=======
-			<version>2.12.2</version>
-		</dependency>
+			<version>14.2.0</version>			
+		</dependency>-->		
 		<!-- https://mvnrepository.com/artifact/info.cukes/cucumber-testng -->
 		<dependency>
 			<groupId>info.cukes</groupId>
 			<artifactId>cucumber-testng</artifactId>
 			<version>1.2.5</version>
 		</dependency>
->>>>>>> 37d49c9cb2dbb9238b1cb4ad24499a970b745df1
+
 
 	</dependencies>
 </project>

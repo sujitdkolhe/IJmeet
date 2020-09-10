@@ -3,7 +3,7 @@ package testRunner;
 import org.junit.runner.RunWith;
 
 import cucumber.api.CucumberOptions;
-import cucumber.api.junit.Cucumber;
+//import cucumber.api.junit.Cucumber;
 import cucumber.api.testng.AbstractTestNGCucumberTests;
 
 import com.cucumber.listener.ExtentCucumberFormatter;
@@ -13,7 +13,10 @@ import com.cucumber.listener.ExtentCucumberFormatter;
  */
 
 //@RunWith(Cucumber.class)
-@CucumberOptions(features = ".//src/test/java/Features/SignIn.feature", glue = "stepDefination",monochrome = true, plugin = {"pretty",
-		"com.cucumber.listener.ExtentCucumberFormatter:Report/ExtentsCucumberReport.html" })
+@CucumberOptions(features = ".//src/test/java/Features/SignIn.feature", 
+				 glue = "stepDefination",
+				 monochrome = true, 
+				 plugin = {"pretty","com.cucumber.listener.ExtentCucumberFormatter:Report/ExtentsCucumberReport.html" })
+
 public class TestRun extends AbstractTestNGCucumberTests {
 }
