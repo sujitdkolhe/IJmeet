@@ -1,0 +1,18 @@
+2020-09-08 14:47:27 7523 INFO  [main] - ****** Launching chrome browser *****
+2020-09-08 14:47:51 31492 INFO  [main] - ****** Open URL *****
+2020-09-08 14:47:51 31743 INFO  [main] - ****** Verify visibility of Sign In button *****
+2020-09-08 14:47:54 34127 INFO  [main] - ****** Navigate to Sign In Page *****
+2020-09-08 14:49:29 7550 INFO  [main] - ****** Launching chrome browser *****
+2020-09-08 14:49:49 26971 INFO  [main] - ****** Open URL *****
+2020-09-08 14:49:49 27217 INFO  [main] - ****** Verify visibility of Sign In button *****
+2020-09-08 14:49:56 33956 INFO  [main] - ****** Navigate to Sign In Page *****
+2020-09-08 14:54:15 8407 INFO  [main] - ****** Launching chrome browser *****
+2020-09-08 14:54:30 23426 INFO  [main] - ****** Open URL *****
+2020-09-08 14:54:31 23652 INFO  [main] - ****** Verify visibility of Sign In button *****
+2020-09-08 14:54:31 24278 INFO  [main] - ****** Navigate to Sign In Page *****
+2020-09-08 23:41:18 52862 INFO  [main] - ****** Launching chrome browser *****
+2020-09-08 23:42:55 8009 INFO  [main] - ****** Launching chrome browser *****
+2020-09-08 23:43:12 24613 INFO  [main] - ****** Open URL *****
+2020-09-08 23:43:12 25119 INFO  [main] - ****** Verify visibility of Sign In button *****
+2020-09-08 23:43:14 27122 INFO  [main] - ****** Navigate to Sign In Page *****
+2020-09-08 23:44:48 8842 INFO  [main] - ****** Launching chrome browser *****

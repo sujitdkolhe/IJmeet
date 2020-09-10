@@ -2,24 +2,34 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="68258" started-at="2020-08-25T12:21:17Z" finished-at="2020-08-25T12:22:25Z">
+  <suite name="Default suite" duration-ms="30520" started-at="2020-09-08T18:12:45Z" finished-at="2020-09-08T18:13:16Z">
     <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testRunner.TestRun@60c6f5b]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
     </groups>
-    <test name="Default test" duration-ms="68258" started-at="2020-08-25T12:21:17Z" finished-at="2020-08-25T12:22:25Z">
-      <class name="com.ijmeet.testcases.SignInTest">
-        <test-method status="PASS" signature="baseTest()[pri:0, instance:com.ijmeet.testcases.SignInTest@5025a98f]" name="baseTest" is-config="true" duration-ms="54175" started-at="2020-08-25T12:21:18Z" finished-at="2020-08-25T12:22:12Z">
+    <test name="Default test" duration-ms="30520" started-at="2020-09-08T18:12:45Z" finished-at="2020-09-08T18:13:16Z">
+      <class name="testRunner.TestRun">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:testRunner.TestRun@60c6f5b]" name="setUpClass" is-config="true" duration-ms="781" started-at="2020-09-08T18:12:45Z" finished-at="2020-09-08T18:12:46Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- baseTest -->
-        <test-method status="PASS" signature="tc_001()[pri:0, instance:com.ijmeet.testcases.SignInTest@5025a98f]" name="tc_001" duration-ms="3412" started-at="2020-08-25T12:22:12Z" finished-at="2020-08-25T12:22:15Z">
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testRunner.TestRun@60c6f5b]" name="feature" duration-ms="28311" started-at="2020-09-08T18:12:46Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-09-08T18:13:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Verify Sign In page]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tc_001 -->
-        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.ijmeet.testcases.SignInTest@5025a98f]" name="closeDriver" is-config="true" duration-ms="5800" started-at="2020-08-25T12:22:19Z" finished-at="2020-08-25T12:22:25Z">
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:testRunner.TestRun@60c6f5b]" name="tearDownClass" is-config="true" duration-ms="1216" started-at="2020-09-08T18:13:14Z" finished-at="2020-09-08T18:13:16Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closeDriver -->
-      </class> <!-- com.ijmeet.testcases.SignInTest -->
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testRunner.TestRun -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
