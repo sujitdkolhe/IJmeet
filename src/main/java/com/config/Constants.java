@@ -32,3 +32,5 @@ public class Constants {
 	public static Logger logger;
 	public static SignInPage signInPage;
 	public static AShot ashot;
+	
+}	
