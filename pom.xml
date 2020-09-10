@@ -31,13 +31,16 @@
 			</plugin>
 		</plugins>
 	</build>
+<<<<<<< HEAD
 
+=======
+>>>>>>> 37d49c9cb2dbb9238b1cb4ad24499a970b745df1
 	<dependencies>
 		<!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
 		<dependency>
 			<groupId>io.github.bonigarcia</groupId>
 			<artifactId>webdrivermanager</artifactId>
-			<version>3.7.1</version>
+			<version>4.0.0</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
 		<dependency>
@@ -88,7 +91,7 @@
 		<dependency>
 			<groupId>com.aventstack</groupId>
 			<artifactId>extentreports</artifactId>
-			<version>3.1.5</version>
+			<version>4.0.9</version>
 		</dependency>
 		<dependency>
 			<groupId>com.vimalselvam</groupId>
@@ -98,7 +101,7 @@
 		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-api</artifactId>
-			<version>1.7.25</version> 
+			<version>1.7.25</version>
 		</dependency>
 
 		<dependency>
@@ -112,50 +115,70 @@
 			<artifactId>junit</artifactId>
 			<version>4.12</version>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-core -->
+		<!-- https://mvnrepository.com/artifact/info.cukes/cucumber-core -->
 		<dependency>
-			<groupId>io.cucumber</groupId>
+			<groupId>info.cukes</groupId>
 			<artifactId>cucumber-core</artifactId>
-			<version>6.4.0</version>
+			<version>1.2.5</version>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-html -->
+
+		<!-- https://mvnrepository.com/artifact/info.cukes/cucumber-html -->
 		<dependency>
-			<groupId>io.cucumber</groupId>
+			<groupId>info.cukes</groupId>
 			<artifactId>cucumber-html</artifactId>
-			<version>0.2.7</version>
+			<version>0.2.3</version>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
+
+		<!-- https://mvnrepository.com/artifact/info.cukes/cucumber-java -->
 		<dependency>
-			<groupId>io.cucumber</groupId>
+			<groupId>info.cukes</groupId>
 			<artifactId>cucumber-java</artifactId>
-			<version>6.4.0</version>
+			<version>1.2.5</version>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-junit -->
+
+
+		<!-- https://mvnrepository.com/artifact/info.cukes/cucumber-junit -->
 		<dependency>
-			<groupId>io.cucumber</groupId>
+			<groupId>info.cukes</groupId>
 			<artifactId>cucumber-junit</artifactId>
+<<<<<<< HEAD
 			<version>6.4.0</version>
 			<!-- <scope>test</scope> -->
+=======
+			<version>1.2.5</version>
+>>>>>>> 37d49c9cb2dbb9238b1cb4ad24499a970b745df1
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-jvm-deps -->
+
+		<!-- https://mvnrepository.com/artifact/info.cukes/cucumber-jvm-deps -->
 		<dependency>
-			<groupId>io.cucumber</groupId>
+			<groupId>info.cukes</groupId>
 			<artifactId>cucumber-jvm-deps</artifactId>
-			<version>1.0.6</version>
-			<scope>provided</scope>
+			<version>1.0.5</version>
 		</dependency>
+
 		<!-- https://mvnrepository.com/artifact/net.masterthought/cucumber-reporting -->
 		<dependency>
 			<groupId>net.masterthought</groupId>
 			<artifactId>cucumber-reporting</artifactId>
 			<version>5.3.0</version>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/io.cucumber/gherkin -->
+		<!-- https://mvnrepository.com/artifact/info.cukes/gherkin -->
 		<dependency>
-			<groupId>io.cucumber</groupId>
+			<groupId>info.cukes</groupId>
 			<artifactId>gherkin</artifactId>
+<<<<<<< HEAD
 			<version>14.2.0</version>
 		</dependency>	
+=======
+			<version>2.12.2</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/info.cukes/cucumber-testng -->
+		<dependency>
+			<groupId>info.cukes</groupId>
+			<artifactId>cucumber-testng</artifactId>
+			<version>1.2.5</version>
+		</dependency>
+>>>>>>> 37d49c9cb2dbb9238b1cb4ad24499a970b745df1
 
 	</dependencies>
 </project>
