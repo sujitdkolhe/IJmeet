@@ -1,11 +1,8 @@
 package testRunner;
 
 import org.junit.runner.RunWith;
-
-import cucumber.api.CucumberOptions;
-//import cucumber.api.junit.Cucumber;
-import cucumber.api.testng.AbstractTestNGCucumberTests;
-
+import io.cucumber.junit.CucumberOptions;
+import io.cucumber.testng.AbstractTestNGCucumberTests;
 import com.cucumber.listener.ExtentCucumberFormatter;
 /*
  * This method is to run feature file 
@@ -13,7 +10,7 @@ import com.cucumber.listener.ExtentCucumberFormatter;
  */
 
 //@RunWith(Cucumber.class)
-@CucumberOptions(features = ".//src/test/java/Features/SignIn.feature", 
+@CucumberOptions(features = ".//src/test/java/Features/SignUp.feature", 
 				 glue = "stepDefination",
 				 monochrome = true, 
 				 plugin = {"pretty","com.cucumber.listener.ExtentCucumberFormatter:Report/ExtentsCucumberReport.html" })

@@ -12,18 +12,21 @@ import com.config.TestListener;
 import com.config.Utility;
 import com.ijmeet.pageobject.SignInPage;
 
-import cucumber.api.java.en.Given;
-import cucumber.api.java.en.Then;
-import cucumber.api.java.en.When;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
 
 public class SignInSteps {
-	@Given("^User launch chrome browser$")
-	public void user_launch_chrome_browser() {
+	
+	@Given("launch chrome browser")
+	public void launch_chrome_browser() {
+	   
 		Keywords.openBrowser("Chrome");
 		Keywords.maximizeBrowser();
 		Keywords.loggerInfo("****** Launching chrome browser *****");
-		//Constants.extent.createTest("Launching chrome browser");
 	}
+
+	
 	@When("^User opens URL \"([^\"]*)\"$")
 	public void user_opens_URL(String url) {
 		Constants.driver.get(url);

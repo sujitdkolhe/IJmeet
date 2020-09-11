@@ -15,4 +15,23 @@
 2020-09-08 23:43:12 24613 INFO  [main] - ****** Open URL *****
 2020-09-08 23:43:12 25119 INFO  [main] - ****** Verify visibility of Sign In button *****
 2020-09-08 23:43:14 27122 INFO  [main] - ****** Navigate to Sign In Page *****
-2020-09-08 23:44:48 8842 INFO  [main] - ****** Launching chrome browser *****
+2020-09-08 23:44:48 8842 INFO  [main] - ****** Launching chrome browser *****2020-09-10 17:34:27 19560 INFO  [main] - ****** Launching chrome browser *****
+2020-09-10 17:34:53 46406 INFO  [main] - ****** Open URL *****
+2020-09-10 17:55:31 5585 INFO  [main] - ****** Launching chrome browser *****
+2020-09-10 17:55:39 13501 INFO  [main] - ****** Open URL *****
+2020-09-10 18:02:48 5468 INFO  [main] - ****** Launching chrome browser *****
+2020-09-10 18:03:00 17531 INFO  [main] - ****** Open URL *****
+2020-09-10 19:03:28 22775 INFO  [main] - entering appliction url and maximizing browser
+2020-09-10 19:03:30 24625 INFO  [main] - Verify Sign In link
+2020-09-11 13:02:45 12510 INFO  [main] - ****** Launching chrome browser *****
+2020-09-11 13:02:57 23766 INFO  [main] - ****** Open URL *****
+2020-09-11 13:02:58 24750 INFO  [main] - *****Verify visibility of Sign Up button******
+2020-09-11 13:03:02 29515 INFO  [main] - ****** Navigate to Sign Up Page *****
+2020-09-11 13:04:18 5153 INFO  [main] - ****** Launching chrome browser *****
+2020-09-11 13:04:33 19560 INFO  [main] - ****** Open URL *****
+2020-09-11 13:04:33 20236 INFO  [main] - *****Verify visibility of Sign Up button******
+2020-09-11 13:04:37 23671 INFO  [main] - ****** Navigate to Sign Up Page *****
+2020-09-11 13:38:39 9481 INFO  [main] - ****** Launching chrome browser *****
+2020-09-11 13:38:49 19559 INFO  [main] - ****** Open URL *****
+2020-09-11 13:38:49 20209 INFO  [main] - *****Verify visibility of Sign Up button******
+2020-09-11 13:38:54 24585 INFO  [main] - ****** Navigate to Sign Up Page *****

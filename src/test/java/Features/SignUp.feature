@@ -1,23 +1,23 @@
 Feature: Verify Sign Up page
-  I want to use this template for my feature file
 
-  @tag1
-  Scenario: Title of your scenario
-    Given I want to write a step with precondition
-    And some other precondition
-    When I complete action
-    And some other action
-    And yet another action
-    Then I validate the outcomes
-    And check more outcomes
+ Background: Below some common steps
+    Given launch chrome browser
+    When Opens URL "https://ijmeet.com/"
+    Then Check visibility of Sign Up button
+    Then Click on Sign Up button
+    Then Navigate to Sign Up Page
+    
+    Scenario: Verify Sign Up page fields
+     Then Mouse hover on Full Name text box
+     Then Enter Full Name as "Arjun Reddy"
+     Then Mouse hover on Company Name text box
+     Then Enter Company Name as "ABC Ltd"
+     Then Mouse hover on Email id text box
+     Then Enter Email id as "arjunreddy8254@gmail.com"
+     Then Mouse hover on Mobile Number text box
+     Then Enter Mobile Number as "9876543210"
+     Then User Enters Password as "abc@123"  
+    
+ 
 
-  @tag2
-  Scenario Outline: Title of your scenario outline
-    Given I want to write a step with <name>
-    When I check for the <value> in step
-    Then I verify the <status> in step
 
-    Examples: 
-      | name  | value | status  |
-      | name1 |     5 | success |
-      | name2 |     7 | Fail    |
