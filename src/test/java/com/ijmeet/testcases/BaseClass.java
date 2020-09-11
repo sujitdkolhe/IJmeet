@@ -20,7 +20,7 @@ public class BaseClass {
 		Keywords.loggerInfo("entering appliction url and maximizing browser");
 		Constants.logger = Logger.getLogger(BaseClass.class);
 		PropertyConfigurator.configure("log4j.properties");
-		Constants.signInPage=new SignInPage();
+		Constants.sip=SignInPage.getSignInPage();
 	}
 
 	@AfterMethod
