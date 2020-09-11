@@ -28,7 +28,7 @@ import ru.yandex.qatools.ashot.comparison.ImageDiffer;
 public class SignInTest extends BaseClass {
 	@Test
 	public void tc_001() {
-		Constants.signInPage.clickOnSign();
+		Constants.sip.clickOnSign();
 		Constants.logger.info("Verify Sign In link");
 		Constants.extent.createTest("tc_001 Sign In link");
 	}
