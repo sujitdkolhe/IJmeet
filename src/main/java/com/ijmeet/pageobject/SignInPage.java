@@ -8,10 +8,15 @@ import org.openqa.selenium.support.PageFactory;
 import com.config.Constants;
 import com.config.Keywords;
 
-public class SignInPage {
+public final class SignInPage {
+	private static SignInPage sip= new SignInPage();
 	// This is to Initializing the page Objects
-	public SignInPage() {
+	private SignInPage() {
 		PageFactory.initElements(Constants.driver, this);
+	}
+	public static SignInPage getSignInPage() {
+		return sip;
+		
 	}
 
 	@FindBy(xpath = "//a[text()=' Sign In ']")
