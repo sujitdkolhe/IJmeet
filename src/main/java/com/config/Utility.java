@@ -33,7 +33,6 @@ public class Utility {
 			e.printStackTrace();
 		}
 		return value;
-
 	}
 
 	public static String captureScreenshot(WebDriver driver, String fileName) {
