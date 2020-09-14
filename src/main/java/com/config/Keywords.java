@@ -1,6 +1,7 @@
 package com.config;
 
 import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -8,21 +9,28 @@ import java.util.Iterator;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
+import javax.imageio.ImageIO;
+
 import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.remote.CapabilityType;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.Select;
-
-
 import io.github.bonigarcia.wdm.WebDriverManager;
+import ru.yandex.qatools.ashot.AShot;
+import ru.yandex.qatools.ashot.Screenshot;
+import ru.yandex.qatools.ashot.shooting.ShootingStrategies;
 
 public class Keywords {
 	/**
@@ -50,7 +58,7 @@ public class Keywords {
 			Constants.driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
 			break;
 		case "IE":
-			WebDriverManager.iedriver().setup();
+			
 			Constants.driver = new InternetExplorerDriver();
 			Constants.driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
 			break;
@@ -152,6 +160,71 @@ public class Keywords {
 		Constants.action = new Actions(Constants.driver);
 		Constants.action.moveToElement(Constants.element).perform();
 	}
+	/*
+	 * This method captures screenshot for the viewport using Yandex AShot
+	 * library and returns the Image
+	 * 
+	 * @Param:Accepts parameter the file-format in which we need the output
+	 * Image
+	 * 
+	 * @Param:Accepts parameter as the location in which we want to save the
+	 * screenshot taken
+	 */
+
+	public static void captureScreenshot(String ImageFormatType, FileOutputStream filepath) throws IOException {
+
+		Constants.ashot = new AShot();
+		Screenshot sc = Constants.ashot.takeScreenshot(Constants.driver);
+		ImageIO.write(sc.getImage(), ImageFormatType, filepath);
+
+		
+
+	}
+
+	/*
+	 * This method will capture the screenshot for the entire web-page by
+	 * parsing it
+	 * 
+	 * @Param:Accepts int value as parameter i.e. the time in milliseconds for
+	 * which the web-page will be parsed
+	 * 
+	 * @Param:Accepts parameter as the type of Image we want i.e. JPG or PNG
+	 * 
+	 * @Param:Accepts paramter as the location where we need to save the image
+	 * output stream
+	 */
+	public static void captureFullScreenshot(int timeinMiliseconds, String formatName, FileOutputStream filepath)
+			throws IOException {
+
+		Constants.ashot = new AShot();
+		Screenshot sc = Constants.ashot.shootingStrategy(ShootingStrategies.viewportPasting(timeinMiliseconds))
+				.takeScreenshot(Constants.driver);
+		ImageIO.write(sc.getImage(), formatName, filepath);
+
+		
+
+	}
+
+	/*
+	 * This method will capture the screenshot for the WebElement of our
+	 * interest and which needs to be passed as a parameter
+	 * 
+	 * @Param:Accepts WebElement as a parameter for which we want the screenshot
+	 * 
+	 * @Param:Accepts Image format as a parameter the type of format which we
+	 * want the image to be of
+	 * 
+	 * @Param:Accepts the parameter as location where we want our FileOutPut
+	 * Stream to be stored at
+	 */
+	public static void captureWebElementScreenshot(WebElement element, String formatName,
+			FileOutputStream filepath) throws IOException {
+
+		Constants.ashot = new AShot();
+		Screenshot sc = Constants.ashot.takeScreenshot(Constants.driver, element);
+		ImageIO.write(sc.getImage(), formatName, filepath);
+		
+	}
 
 	/**
 	 * This method is used to typing the text in the target element.
@@ -186,6 +259,7 @@ public class Keywords {
 	 */
 	public static void loggerInfo(String message) {
 		Logger logger = Logger.getLogger(Keywords.class);
+		PropertyConfigurator.configure("log4j.properties");
 		logger.info(message);
 	}
 
@@ -253,7 +327,18 @@ public class Keywords {
 	public static void deleteCookies() {
 		Constants.driver.manage().deleteAllCookies();
 	}
-
+	
+	/**
+	 * This method is used to highlight element.
+	 * @author Sujit Kolhe
+	 */
+    public static void highlightElement(String locatorType,String locatorValue ) {
+    	Constants.element= getWebElement(locatorType, locatorValue);
+    	JavascriptExecutor jse = (JavascriptExecutor)Constants.driver;
+    	jse.executeScript("arguments[0].setAttribute('style','background:yellow;border:2px solid red;');", Constants.element);
+    	jse.executeScript("arguments[0].setAttribute('style',border:solid 2px white')", Constants.element);
+    }
+ 
 	/**
 	 * This method is used to Close the current window, quitting the browser if it's
 	 * the last window currently open.
