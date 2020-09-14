@@ -1,0 +1,60 @@
+2020-08-27 13:23:53 47802 INFO  [main] - Verify Sign In link
+2020-09-07 17:12:59 112606 INFO  [main] - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2020-09-07 17:12:59 112616 INFO  [main] - ====> http://tiny.cc/wdm-survey <====
+2020-09-07 17:12:59 112633 INFO  [main] - Using chromedriver 85.0.4183.87 (since Chrome 85 is installed in your machine)
+2020-09-07 17:12:59 112692 INFO  [main] - Exporting webdriver.chrome.driver as C:\Users\HP\.m2\repository\webdriver\chromedriver\win32\85.0.4183.87\chromedriver.exe
+2020-09-07 17:13:27 139983 INFO  [main] - *****launching browser*****
+2020-09-07 18:10:14 72717 INFO  [main] - Verify Sign In link
+2020-09-07 18:10:24 82362 INFO  [main] - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2020-09-07 18:10:24 82363 INFO  [main] - ====> http://tiny.cc/wdm-survey <====
+2020-09-07 18:10:24 82374 INFO  [main] - Using chromedriver 85.0.4183.87 (since Chrome 85 is installed in your machine)
+2020-09-07 18:10:24 82414 INFO  [main] - Exporting webdriver.chrome.driver as C:\Users\HP\.m2\repository\webdriver\chromedriver\win32\85.0.4183.87\chromedriver.exe
+2020-09-07 18:11:08 126413 INFO  [main] - *****launching browser*****
+2020-09-07 18:15:48 37705 INFO  [main] - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2020-09-07 18:15:48 37722 INFO  [main] - ====> http://tiny.cc/wdm-survey <====
+2020-09-07 18:15:48 37769 INFO  [main] - Using chromedriver 85.0.4183.87 (since Chrome 85 is installed in your machine)
+2020-09-07 18:15:48 37811 INFO  [main] - Exporting webdriver.chrome.driver as C:\Users\HP\.m2\repository\webdriver\chromedriver\win32\85.0.4183.87\chromedriver.exe
+2020-09-07 18:16:18 68124 INFO  [main] - *****launching browser*****
+2020-09-07 18:26:04 53920 INFO  [main] - Verify Sign In link
+2020-09-07 18:26:04 53942 INFO  [main] - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2020-09-07 18:26:04 53944 INFO  [main] - ====> http://tiny.cc/wdm-survey <====
+2020-09-07 18:26:04 53969 INFO  [main] - Using chromedriver 85.0.4183.87 (since Chrome 85 is installed in your machine)
+2020-09-07 18:26:04 54151 INFO  [main] - Exporting webdriver.chrome.driver as C:\Users\HP\.m2\repository\webdriver\chromedriver\win32\85.0.4183.87\chromedriver.exe
+2020-09-07 18:26:13 63357 INFO  [main] - *****launching browser*****
+2020-09-07 22:15:41 72242 INFO  [main] - Verify Sign In link
+2020-09-07 22:15:48 79517 INFO  [main] - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2020-09-07 22:15:48 79518 INFO  [main] - ====> http://tiny.cc/wdm-survey <====
+2020-09-07 22:15:48 79529 INFO  [main] - Using chromedriver 85.0.4183.87 (since Chrome 85 is installed in your machine)
+2020-09-07 22:15:48 79574 INFO  [main] - Exporting webdriver.chrome.driver as C:\Users\HP\.m2\repository\webdriver\chromedriver\win32\85.0.4183.87\chromedriver.exe
+2020-09-07 22:16:21 112461 INFO  [main] - *****launching browser*****
+2020-09-07 23:00:05 166629 INFO  [main] - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2020-09-07 23:00:05 166633 INFO  [main] - ====> http://tiny.cc/wdm-survey <====
+2020-09-07 23:00:05 166647 INFO  [main] - Using chromedriver 85.0.4183.87 (since Chrome 85 is installed in your machine)
+2020-09-07 23:00:05 166678 INFO  [main] - Exporting webdriver.chrome.driver as C:\Users\HP\.m2\repository\webdriver\chromedriver\win32\85.0.4183.87\chromedriver.exe
+2020-09-07 23:00:30 191393 INFO  [main] - *****launching browser*****
+2020-09-07 23:48:59 57593 INFO  [main] - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2020-09-07 23:48:59 57632 INFO  [main] - ====> http://tiny.cc/wdm-survey <====
+2020-09-07 23:48:59 57644 INFO  [main] - Using chromedriver 85.0.4183.87 (since Chrome 85 is installed in your machine)
+2020-09-07 23:48:59 57684 INFO  [main] - Exporting webdriver.chrome.driver as C:\Users\HP\.m2\repository\webdriver\chromedriver\win32\85.0.4183.87\chromedriver.exe
+2020-09-07 23:49:35 93827 INFO  [main] - *****launching browser*****
+2020-09-07 23:57:00 63345 INFO  [main] - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2020-09-07 23:57:00 63349 INFO  [main] - ====> http://tiny.cc/wdm-survey <====
+2020-09-07 23:57:00 63370 INFO  [main] - Using chromedriver 85.0.4183.87 (since Chrome 85 is installed in your machine)
+2020-09-07 23:57:00 63406 INFO  [main] - Exporting webdriver.chrome.driver as C:\Users\HP\.m2\repository\webdriver\chromedriver\win32\85.0.4183.87\chromedriver.exe
+2020-09-07 23:57:31 94170 INFO  [main] - *****launching browser*****
+2020-09-08 13:41:20 7484 INFO  [main] - ****** Launching chrome browser *****
+2020-09-08 13:41:43 30143 INFO  [main] - ****** Open URL *****
+2020-09-08 13:41:43 30492 INFO  [main] - ****** Verify visibility of Sign In button *****
+2020-09-08 13:41:45 32689 INFO  [main] - ****** Navigate to Sign In Page *****
+2020-09-08 13:49:25 6733 INFO  [main] - ****** Launching chrome browser *****
+2020-09-08 13:49:46 27688 INFO  [main] - ****** Open URL *****
+2020-09-08 13:49:46 27966 INFO  [main] - ****** Verify visibility of Sign In button *****
+2020-09-08 13:49:49 31462 INFO  [main] - ****** Navigate to Sign In Page *****
+2020-09-08 14:04:06 7278 INFO  [main] - ****** Launching chrome browser *****
+2020-09-08 14:04:49 50262 INFO  [main] - ****** Open URL *****
+2020-09-08 14:04:50 50919 INFO  [main] - ****** Verify visibility of Sign In button *****
+2020-09-08 14:04:50 51713 INFO  [main] - ****** Navigate to Sign In Page *****
+2020-09-08 14:06:20 8757 INFO  [main] - ****** Launching chrome browser *****
+2020-09-08 14:06:57 46037 INFO  [main] - ****** Open URL *****
+2020-09-08 14:06:58 46368 INFO  [main] - ****** Verify visibility of Sign In button *****
+2020-09-08 14:07:20 68436 INFO  [main] - ****** Navigate to Sign In Page *****

@@ -17,7 +17,7 @@ public class Utility {
 	 * 
 	 * @param key
 	 * @return value in form of{@code String}
-	 *  @author Sujit Kolhe
+	 * @author Sujit Kolhe
 	 */
 	public static String getProperty(String key, String propertiesFilepath) {
 		String value = null;
@@ -33,7 +33,6 @@ public class Utility {
 			e.printStackTrace();
 		}
 		return value;
-
 	}
 
 	public static String captureScreenshot(WebDriver driver, String fileName) {
