@@ -28,3 +28,18 @@
 2020-09-10 22:26:03 60669 INFO  [main] - ****** Open URL *****
 2020-09-10 22:26:06 63713 INFO  [main] - ****** Verify visibility of Sign In button *****
 2020-09-10 22:26:11 68403 INFO  [main] - ****** Navigate to Sign In Page *****
+2020-09-14 22:28:46 47299 INFO  [main] - ****** Launching chrome browser *****
+2020-09-14 22:30:57 178353 INFO  [main] - ****** Verify visibility of Sign In button *****
+2020-09-14 22:30:59 180308 INFO  [main] - ****** Navigate to Sign In Page *****
+2020-09-15 08:05:12 10444 INFO  [main] - ****** Launching chrome browser *****
+2020-09-15 08:05:40 39016 INFO  [main] - ****** Open URL *****
+2020-09-15 08:05:41 39498 INFO  [main] - ****** Verify visibility of Sign In button *****
+2020-09-15 08:05:42 40439 INFO  [main] - ****** Navigate to Sign In Page *****
+2020-09-15 16:06:10 13045 INFO  [main] - ****** Launching chrome browser *****
+2020-09-15 16:07:03 65443 INFO  [main] - ****** Open URL *****
+2020-09-15 16:41:22 8493 INFO  [main] - ****** Launching chrome browser *****
+2020-09-15 16:42:22 68376 INFO  [main] - ****** Open URL *****
+2020-09-15 17:21:02 9423 INFO  [main] - ****** Launching chrome browser *****
+2020-09-15 17:21:48 54679 INFO  [main] - ****** Open URL *****
+2020-09-15 17:21:49 55835 INFO  [main] - Verified visibility of IJmeet Logo
+2020-09-15 17:21:50 56897 INFO  [main] - Verified Clickability of IJmeet Logo Link
