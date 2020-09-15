@@ -30,5 +30,6 @@ public class Constants {
 	public static ExtentTest test;
 	public static ExtentReports extent;
 	public static Logger logger;
-	public static SignInPage signInPage;
+	public static SignInPage sip;
 	public static AShot ashot;
+}

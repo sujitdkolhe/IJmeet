@@ -15,12 +15,17 @@ public class BaseClass {
 	@BeforeMethod
 	public static void baseTest() {
 		Keywords.openBrowser("Chrome");
+		
+		
+		
+		
+		
 		Keywords.launchURL(Utility.getProperty("BaseURL", propertiesFilepath));
 		Keywords.maximizeBrowser();
 		Keywords.loggerInfo("entering appliction url and maximizing browser");
 		Constants.logger = Logger.getLogger(BaseClass.class);
 		PropertyConfigurator.configure("log4j.properties");
-		Constants.signInPage=new SignInPage();
+		Constants.sip=SignInPage.getSignInPage();
 	}
 
 	@AfterMethod

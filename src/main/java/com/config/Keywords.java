@@ -12,16 +12,21 @@ import java.util.concurrent.TimeUnit;
 import javax.imageio.ImageIO;
 
 import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.remote.CapabilityType;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.Select;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import ru.yandex.qatools.ashot.AShot;
@@ -29,6 +34,9 @@ import ru.yandex.qatools.ashot.Screenshot;
 import ru.yandex.qatools.ashot.shooting.ShootingStrategies;
 
 public class Keywords {
+	
+	
+
 	/**
 	 * This method is used to open specific browser. Browser name should be as
 	 * follow :<br>
@@ -54,7 +62,7 @@ public class Keywords {
 			Constants.driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
 			break;
 		case "IE":
-			WebDriverManager.iedriver().setup();
+			
 			Constants.driver = new InternetExplorerDriver();
 			Constants.driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
 			break;
@@ -255,6 +263,7 @@ public class Keywords {
 	 */
 	public static void loggerInfo(String message) {
 		Logger logger = Logger.getLogger(Keywords.class);
+		PropertyConfigurator.configure("log4j.properties");
 		logger.info(message);
 	}
 
@@ -322,7 +331,18 @@ public class Keywords {
 	public static void deleteCookies() {
 		Constants.driver.manage().deleteAllCookies();
 	}
-
+	
+	/**
+	 * This method is used to highlight element.
+	 * @author Sujit Kolhe
+	 */
+    public static void highlightElement(String locatorType,String locatorValue ) {
+    	Constants.element= getWebElement(locatorType, locatorValue);
+    	JavascriptExecutor jse = (JavascriptExecutor)Constants.driver;
+    	jse.executeScript("arguments[0].setAttribute('style','background:yellow;border:2px solid red;');", Constants.element);
+    	jse.executeScript("arguments[0].setAttribute('style',border:solid 2px white')", Constants.element);
+    }
+ 
 	/**
 	 * This method is used to Close the current window, quitting the browser if it's
 	 * the last window currently open.
@@ -354,5 +374,27 @@ public class Keywords {
 		WebElement element = getWebElement(locatorType, locatorValue);
 		Select select = new Select(element);
 		select.selectByVisibleText(textToSelect);
+	}
+	
+	public static void findNumberOfLinkPresent(WebElement element) throws InterruptedException
+	{
+		String parentWindow = Constants.driver.getWindowHandle();
+		WebElement subDriver = element;
+		for(int i=0; i<subDriver.findElements(By.tagName("a")).size();i++)
+		{
+			String clickOnTab = Keys.chord(Keys.CONTROL,Keys.ENTER);
+			subDriver.findElements(By.tagName("a")).get(i).sendKeys(clickOnTab);
+		}
+		Set <String> id=Constants.driver.getWindowHandles();
+		Iterator<String> itr = id.iterator();
+		while(itr.hasNext())
+		{
+			
+			Constants.driver.switchTo().window(itr.next());
+		    System.out.println(Constants.driver.getTitle());
+		    System.out.println(Constants.driver.getCurrentUrl());
+		   Thread.sleep(4000);
+			Constants.driver.switchTo().window(parentWindow);
+		}
 	}
 }

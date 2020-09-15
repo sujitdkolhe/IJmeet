@@ -84,7 +84,5 @@ public class TestListener implements ITestListener {
 	public void onFinish(ITestContext context) {
 		// calling flush writes everything to the log file
 		Constants.extent.flush();
-
 	}
-
 }
