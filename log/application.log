@@ -283,3 +283,18 @@
 2020-09-15 18:02:13 42273 INFO  [main] - ****** Open URL *****
 2020-09-15 18:02:13 42581 INFO  [main] - *****Verify visibility of Sign Up button******
 2020-09-15 18:02:20 48886 INFO  [main] - ****** Navigate to Sign Up Page *****
+2020-09-15 20:38:50 14267 INFO  [main] - ****** Launching chrome browser *****
+2020-09-15 20:39:10 33981 INFO  [main] - ****** Open URL *****
+2020-09-15 20:39:11 35022 INFO  [main] - *****Verify visibility of Sign Up button******
+2020-09-15 20:39:15 38588 INFO  [main] - ****** Navigate to Sign Up Page *****
+2020-09-15 20:39:17 41158 INFO  [main] - ****** User Enters Full Name *****
+2020-09-15 20:39:18 41791 INFO  [main] - ****** User Enters Company Name *****
+2020-09-15 20:39:18 42165 INFO  [main] - ****** User Enters Email id *****
+2020-09-15 20:39:18 42406 INFO  [main] - ****** User Enters Mobile Number *****
+2020-09-15 20:39:19 42589 INFO  [main] - ****** User Enters Password *****
+2020-09-15 20:39:22 46460 INFO  [main] - Using chromedriver 85.0.4183.87 (since Google Chrome 85 is installed in your machine)
+2020-09-15 20:39:22 46469 INFO  [main] - Exporting webdriver.chrome.driver as C:\Users\KAPIL\.m2\repository\webdriver\chromedriver\win32\85.0.4183.87\chromedriver.exe
+2020-09-15 20:39:33 57389 INFO  [main] - ****** Launching chrome browser *****
+2020-09-15 20:39:50 73579 INFO  [main] - ****** Open URL *****
+2020-09-15 20:39:50 74433 INFO  [main] - *****Verify visibility of Sign Up button******
+2020-09-15 20:39:57 81106 INFO  [main] - ****** Navigate to Sign Up Page *****

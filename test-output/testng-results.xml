@@ -2,19 +2,19 @@
 <testng-results skipped="0" failed="0" ignored="0" total="0" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="477" started-at="2020-09-15T12:32:41Z" finished-at="2020-09-15T12:32:41Z">
+  <suite name="Default suite" duration-ms="431" started-at="2020-09-15T15:10:18Z" finished-at="2020-09-15T15:10:19Z">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRun@3cef309d]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Default test" duration-ms="477" started-at="2020-09-15T12:32:41Z" finished-at="2020-09-15T12:32:41Z">
+    <test name="Default test" duration-ms="431" started-at="2020-09-15T15:10:18Z" finished-at="2020-09-15T15:10:19Z">
       <class name="testRunner.TestRun">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:testRunner.TestRun@3cef309d]" name="setUpClass" is-config="true" duration-ms="433" started-at="2020-09-15T12:32:41Z" finished-at="2020-09-15T12:32:41Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:testRunner.TestRun@3cef309d]" name="setUpClass" is-config="true" duration-ms="336" started-at="2020-09-15T15:10:18Z" finished-at="2020-09-15T15:10:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:testRunner.TestRun@3cef309d]" name="tearDownClass" is-config="true" duration-ms="7" started-at="2020-09-15T12:32:41Z" finished-at="2020-09-15T12:32:41Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:testRunner.TestRun@3cef309d]" name="tearDownClass" is-config="true" duration-ms="6" started-at="2020-09-15T15:10:19Z" finished-at="2020-09-15T15:10:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
