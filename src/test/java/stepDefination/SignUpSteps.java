@@ -1,5 +1,7 @@
 package stepDefination;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 
 import com.config.Constants;
@@ -14,6 +16,7 @@ import io.cucumber.java.en.When;
 public class SignUpSteps {
 	
 	public SignUpPage sp;
+	WebElement pageElement;	
 	
 	@Given("^Launch chrome browser$")
 	public void Launch_chrome_browser() {
@@ -63,11 +66,12 @@ public class SignUpSteps {
 	    
 	}
 
-	@Then("^Enter Full Name as \"([^\"]*)\"$")
+	@Given("^Enter Full Name as \"([^\"]*)\"$")
 	public void enter_Full_Name_as(String fullname) {
 		
-		//sp.enterFullName(fullname);
-		//Keywords.loggerInfo("****** User Enters Full Name *****");
+		pageElement = Constants.driver.findElement(By.id("name"));
+		pageElement.sendKeys("Arjun Reddy");
+		Keywords.loggerInfo("****** User Enters Full Name *****");
 	}
 
 	@Then("^Mouse hover on Company Name text box$")
@@ -75,11 +79,12 @@ public class SignUpSteps {
 	   
 	}
 
-	@Then("^Enter Company Name as \"([^\"]*)\"$")
+	@Given("^Enter Company Name as \"([^\"]*)\"$")
 	public void enter_Company_Name_as(String companyname) {
 		
-		//sp.entercompanyname(companyname);
-		//Keywords.loggerInfo("****** User Enters Company Name *****");
+		pageElement = Constants.driver.findElement(By.id("company_name"));
+		pageElement.sendKeys("ABC Ltd");
+		Keywords.loggerInfo("****** User Enters Company Name *****");
 	}
 
 	@Then("^Mouse hover on Email id text box$")
@@ -87,11 +92,12 @@ public class SignUpSteps {
 	   
 	}
 
-	@Then("^Enter Email id as \"([^\"]*)\"$")
+	@Given("^Enter Email id as \"([^\"]*)\"$")
 	public void enter_Email_id_as(String emailid) {
 		
-	    //sp.enterEmailid(emailid);
-	    //Keywords.loggerInfo("****** User Enters Email id *****");
+	    pageElement = Constants.driver.findElement(By.id("email"));
+	    pageElement.sendKeys("arjunreddy8254@gmail.com");
+	    Keywords.loggerInfo("****** User Enters Email id *****");
 	}
 
 	@Then("^Mouse hover on Mobile Number text box$")
@@ -99,17 +105,60 @@ public class SignUpSteps {
 	    
 	}
 
-	@Then("^Enter Mobile Number as \"([^\"]*)\"$")
+	@Given("^Enter Mobile Number as \"([^\"]*)\"$")
 	public void enter_Mobile_Number_as(String mobilenumber) {
 		
-	    //sp.entermobilenumber(mobilenumber);
-	    //Keywords.loggerInfo("****** User Enters Mobile Number *****");
+	    pageElement = Constants.driver.findElement(By.id("contact"));
+	    pageElement.sendKeys("9876543210");
+	    Keywords.loggerInfo("****** User Enters Mobile Number *****");
 	}
 
-	@Then("^User Enters Password as \"([^\"]*)\"$")
+	@Given("^User Enters Password as \"([^\"]*)\"$")
 	public void user_Enters_Password_as(String password) {
 		
-	   //sp.enterpassword(password);
-	   //Keywords.loggerInfo("****** User Enters Password *****");
-	}    
+	   pageElement = Constants.driver.findElement(By.id("password"));
+	   pageElement.sendKeys("abc@1234");
+	   Keywords.loggerInfo("****** User Enters Password *****");
+	} 	
+	
+	/*@Given("User clicks on I'm not robot checkbox")
+	public void user_clicks_on_I_m_not_robot_checkbox() {
+	    
+		pageElement = Constants.driver.findElement(By.id("recaptcha-anchor"));
+		pageElement.click();
+		
+		if(pageElement.isSelected()==false) 
+		{
+			pageElement.click();			
+		}else{
+				System.out.println("Checkbox is already selected");
+	 }
+	}*/
+
+	@Given("User clicks on Sign Up button")
+	public void user_clicks_on_Sign_Up_button() {
+	    
+		pageElement = Constants.driver.findElement(By.xpath("//button[@class='btn btn-block btn-primary btn-lg font-weight-medium auth-form-btn mirror-view-btn-primary']"));
+		pageElement.click();	
+	}
+	
+	@Then("Mousehover on already have an account login link")
+	public void mousehover_on_already_have_an_account_login_link() {
+		
+	    
+	}
+
+	@Given("Click on Sign in with Google-plus button")
+	public void click_on_Sign_in_with_Google_plus_button() {
+		
+		pageElement = Constants.driver.findElement(By.xpath("//span[@class='sign-up-accounthave']"));
+	    pageElement.click();
+	}
+
+	@Then("User navigates to {string}")
+	public void user_navigates_to(String string) {
+	    
+	}
+
+
 }

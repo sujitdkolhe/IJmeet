@@ -7,23 +7,21 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.config.Constants;
 
-public class SignUpPage {
-	
-	WebElement txtfullname;
-	WebElement txtcompanyname;
-	WebElement txtEmailid;
-	WebElement txtmobilenumber;
-	WebElement txtpassword;
+public final class SignUpPage {
 	
 	public SignUpPage() {
 		// This is to Initializing the page Objects
 		PageFactory.initElements(Constants.driver, this);
 	}
 	
+	/*public static SignUpPage getsignUpPage() {
+		
+		return signUpPage;
+	}*/
+	
 	@FindBy(xpath = " //a[contains(text(),'Sign Up')]")
 	@CacheLookup
 	private WebElement signup;
-	
 	
 	// This Method is to verify visibility of Sign Up button
 	public boolean SignUpButtonVisibility() {
@@ -35,31 +33,6 @@ public class SignUpPage {
 	public void clickOnSignUp() {
 		
 		signup.click();
-	}
-	
-	public void enterFullName(String fname) {
-		
-		txtfullname.sendKeys(fname);
-	}
-	
-	public void entercompanyname(String Company_name) {
-		
-		txtcompanyname.sendKeys(Company_name);
-	}
-	
-	public void enterEmailid(String emailid) {
-		
-		txtEmailid.sendKeys(emailid);
-	}
-	
-	public void entermobilenumber(String mobileNo) {
-		
-		txtmobilenumber.sendKeys(mobileNo);
-	}
-	
-	public void enterpassword(String Pwd) {
-		
-		txtpassword.sendKeys(Pwd);
-	}
+	}	
 
 }

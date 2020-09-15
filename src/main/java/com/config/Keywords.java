@@ -198,9 +198,6 @@ public class Keywords {
 		Screenshot sc = Constants.ashot.shootingStrategy(ShootingStrategies.viewportPasting(timeinMiliseconds))
 				.takeScreenshot(Constants.driver);
 		ImageIO.write(sc.getImage(), formatName, filepath);
-
-		
-
 	}
 
 	/*

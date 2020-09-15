@@ -8,6 +8,7 @@ import com.config.Constants;
 import com.config.Keywords;
 import com.config.Utility;
 import com.ijmeet.pageobject.SignInPage;
+import com.ijmeet.pageobject.SignUpPage;
 
 public class BaseClass {
 	static String propertiesFilepath = "./Configuration\\ObjectRepo.properties";
@@ -20,11 +21,10 @@ public class BaseClass {
 		Keywords.loggerInfo("entering appliction url and maximizing browser");
 		Constants.logger = Logger.getLogger(BaseClass.class);
 		PropertyConfigurator.configure("log4j.properties");
-<<<<<<< HEAD
-		Constants.signInPage=new SignInPage();		
-=======
+		//Constants.signInPage=new SignInPage();
 		Constants.sip=SignInPage.getSignInPage();
->>>>>>> c9730fc99413124e79b6ec320065d8c7fa80f15f
+		//Constants.signUpPage = SignUpPage.getsignUpPage();
+
 	}
 
 	@AfterMethod

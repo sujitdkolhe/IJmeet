@@ -9,7 +9,7 @@ import com.ijmeet.pageobject.SignInPage;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-<<<<<<< HEAD
+
 
 public class SignInSteps {
 	
@@ -24,10 +24,10 @@ public class SignInSteps {
 	
 	@When("^User opens URL \"([^\"]*)\"$")
 	public void user_opens_URL(String url) {
-=======
 
+	}
 
-public class SignInSteps {
+	//public class SignInSteps {
 	@Given("User launch chrome browser")
 	public void user_launch_chrome_browser() {
 		Keywords.openBrowser("Chrome");
@@ -38,7 +38,7 @@ public class SignInSteps {
 
 	@When("User opens URL {string}")
 	public void user_opens_url(String url) {
->>>>>>> c9730fc99413124e79b6ec320065d8c7fa80f15f
+
 		Constants.driver.get(url);
 		Constants.actual = Constants.driver.getCurrentUrl();
 		String expectedUrl = "https://ijmeet.com/";
@@ -87,5 +87,5 @@ public class SignInSteps {
 	@Then("user enters password {string}")
 	public void user_enters_password(String string) {
 	}
-
 }
+	

@@ -34,12 +34,9 @@ public class Constants {
 	public static Logger logger;
 	public static SignInPage sip;
 	public static AShot ashot;
-<<<<<<< HEAD
 	public static SignUpPage signUpPage;
 	
 }
-//}
-//>>>>>>> 37d49c9cb2dbb9238b1cb4ad24499a970b745df1
-=======
-}
->>>>>>> c9730fc99413124e79b6ec320065d8c7fa80f15f
+
+
+//>>>>>>> c9730fc99413124e79b6ec320065d8c7fa80f15f

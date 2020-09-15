@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testRunner.TestRun">
+      <class name="com.ijmeet.testcases.SignInTest">
         <methods>
-          <include name="setUpClass"/>
-          <include name="feature"/>
-          <include name="tearDownClass"/>
+          <include name="tc_002"/>
+          <include name="closeDriver"/>
+          <include name="baseTest"/>
         </methods>
-      </class> <!-- testRunner.TestRun -->
+      </class> <!-- com.ijmeet.testcases.SignInTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
