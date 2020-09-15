@@ -175,9 +175,7 @@ public class Keywords {
 
 		Constants.ashot = new AShot();
 		Screenshot sc = Constants.ashot.takeScreenshot(Constants.driver);
-		ImageIO.write(sc.getImage(), ImageFormatType, filepath);
-
-		
+		ImageIO.write(sc.getImage(), ImageFormatType, filepath);		
 
 	}
 
@@ -200,9 +198,6 @@ public class Keywords {
 		Screenshot sc = Constants.ashot.shootingStrategy(ShootingStrategies.viewportPasting(timeinMiliseconds))
 				.takeScreenshot(Constants.driver);
 		ImageIO.write(sc.getImage(), formatName, filepath);
-
-		
-
 	}
 
 	/*
