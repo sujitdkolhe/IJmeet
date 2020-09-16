@@ -1,5 +1,4 @@
 package com.config;
-
 import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
@@ -13,7 +12,7 @@ import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 
-public class Reporting extends TestListenerAdapter{
+public class Reporting extends TestListenerAdapter {
 	@Override
 	public void onTestStart(ITestResult result) {
 		System.out.println("On Test Start : " + result.getName());
@@ -54,7 +53,6 @@ public class Reporting extends TestListenerAdapter{
 	public void onTestSkipped(ITestResult result) {
 		System.out.println("On test Skipped " + result.getName());
 		Constants.test.log(Status.SKIP, "Skipped Test Case: " + result.getName());
-
 	}
 
 	@Override
@@ -68,8 +66,7 @@ public class Reporting extends TestListenerAdapter{
 		String dateTimeFormat = new SimpleDateFormat("yyyy-MM-dd_hh_mm_ss").format(new java.util.Date());
 		// Start Reporters
 		ExtentHtmlReporter reporter = new ExtentHtmlReporter(
-				new File(System.getProperty("user.dir")+ "/Report/ExtentsReport" + " " + dateTimeFormat
-						+ ".html"));
+				new File(System.getProperty("user.dir") + "/Report/ExtentsReport" + " " + dateTimeFormat + ".html"));
 		// create ExtentReports and attach reporter
 		Constants.extent = new ExtentReports();
 		Constants.extent.attachReporter(reporter);

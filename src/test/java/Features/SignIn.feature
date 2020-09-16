@@ -8,7 +8,5 @@ Feature: Verify Sign In page
     Then Navigate to Sign In Page
 
   Scenario: Verify Sign In page fields
-    Then Mouse hover on Email Address text box
     Then user enters email address "Sujitghjuikgfgddhjddjkolhe@gmail.com"
-    Then Mouse hover on Password text box
     Then user enters password "gjgfduguigiuhkghkfjhgiufi"

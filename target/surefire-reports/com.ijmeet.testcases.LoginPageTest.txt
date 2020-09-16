@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.ijmeet.testcases.LoginPageTest
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 47.241 sec - in com.ijmeet.testcases.LoginPageTest

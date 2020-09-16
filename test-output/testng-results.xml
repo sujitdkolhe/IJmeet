@@ -2,15 +2,15 @@
 <testng-results skipped="0" failed="0" ignored="0" total="0" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="469" started-at="2020-09-10T14:19:39Z" finished-at="2020-09-10T14:19:39Z">
+  <suite name="Default suite" duration-ms="404" started-at="2020-09-15T19:15:27Z" finished-at="2020-09-15T19:15:28Z">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRun@67205a84]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRun@3b084709]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Default test" duration-ms="469" started-at="2020-09-10T14:19:39Z" finished-at="2020-09-10T14:19:39Z">
+    <test name="Default test" duration-ms="404" started-at="2020-09-15T19:15:27Z" finished-at="2020-09-15T19:15:28Z">
       <class name="testRunner.TestRun">
-        <test-method status="FAIL" signature="setUpClass()[pri:0, instance:testRunner.TestRun@67205a84]" name="setUpClass" is-config="true" duration-ms="375" started-at="2020-09-10T14:19:39Z" finished-at="2020-09-10T14:19:39Z">
+        <test-method status="FAIL" signature="setUpClass()[pri:0, instance:testRunner.TestRun@3b084709]" name="setUpClass" is-config="true" duration-ms="327" started-at="2020-09-15T19:15:27Z" finished-at="2020-09-15T19:15:28Z">
           <exception class="java.lang.NoSuchMethodError">
             <message>
               <![CDATA[io.cucumber.core.options.RuntimeOptions.isStrict()Z]]>
@@ -51,7 +51,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:testRunner.TestRun@67205a84]" name="tearDownClass" is-config="true" duration-ms="0" started-at="2020-09-10T14:19:39Z" finished-at="2020-09-10T14:19:39Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:testRunner.TestRun@3b084709]" name="tearDownClass" is-config="true" duration-ms="0" started-at="2020-09-15T19:15:28Z" finished-at="2020-09-15T19:15:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
