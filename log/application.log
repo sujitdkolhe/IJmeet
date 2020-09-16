@@ -29,6 +29,7 @@
 2020-09-10 22:26:06 63713 INFO  [main] - ****** Verify visibility of Sign In button *****
 2020-09-10 22:26:11 68403 INFO  [main] - ****** Navigate to Sign In Page *****
 <<<<<<< HEAD
+<<<<<<< HEAD
 2020-09-15 16:38:54 12228 INFO  [main] - ****** Launching chrome browser *****
 2020-09-15 16:54:12 6539 INFO  [main] - ****** Launching chrome browser *****
 =======
@@ -48,3 +49,19 @@
 2020-09-15 17:21:49 55835 INFO  [main] - Verified visibility of IJmeet Logo
 2020-09-15 17:21:50 56897 INFO  [main] - Verified Clickability of IJmeet Logo Link
 >>>>>>> d5ea5d6b92de38f5fe81c1fef781ba236d3da527
+=======
+2020-09-11 20:07:26 15286 INFO  [main] - ****** Launching chrome browser *****
+2020-09-11 20:07:35 24604 INFO  [main] - ****** Open URL *****
+2020-09-11 20:07:36 25047 INFO  [main] - ****** Verify visibility of Sign In button *****
+2020-09-11 20:07:38 26931 INFO  [main] - ****** Navigate to Sign In Page *****
+2020-09-14 22:59:17 29939 INFO  [main] - entering appliction url and maximizing browser
+2020-09-14 22:59:18 30861 INFO  [main] - Verify Sign In link
+2020-09-14 23:52:25 15003 INFO  [main] - entering appliction url and maximizing browser
+2020-09-14 23:52:26 16328 INFO  [main] - Verify Sign In link
+2020-09-15 18:17:13 71174 INFO  [main] - entering appliction url and maximizing browser
+2020-09-15 18:17:18 75736 INFO  [main] - Verify Sign In link
+2020-09-15 18:36:18 17651 INFO  [main] - entering appliction url and maximizing browser
+2020-09-15 18:36:19 18758 INFO  [main] - Verify Sign In link
+2020-09-15 19:04:40 16292 INFO  [main] - entering appliction url and maximizing browser
+2020-09-15 19:07:03 19140 INFO  [main] - entering appliction url and maximizing browser
+>>>>>>> f159573e3230e018346bf868ac2a3a2b10ef9959

@@ -365,10 +365,23 @@ public class Keywords {
 	 * @author Kapil Chavan
 	 * 
 	 */
+	
 	public static void selectValueFromDropdown(String locatorType, String locatorValue, String textToSelect) {
 		
 		WebElement element = getWebElement(locatorType, locatorValue);
 		Select select = new Select(element);
 		select.selectByVisibleText(textToSelect);
+	}
+	
+	
+	/**
+	 * This method is used to select the checkbox
+	 * @author Deepak Shitole
+	 * 
+	 */
+	public static void selectCheckbox(String locatorType, String locatorValue) {
+	
+		WebElement chkelement = getWebElement(locatorType, locatorValue);
+		chkelement.click();
 	}
 }
