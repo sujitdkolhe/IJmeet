@@ -28,3 +28,27 @@
 2020-09-10 22:26:03 60669 INFO  [main] - ****** Open URL *****
 2020-09-10 22:26:06 63713 INFO  [main] - ****** Verify visibility of Sign In button *****
 2020-09-10 22:26:11 68403 INFO  [main] - ****** Navigate to Sign In Page *****
+2020-09-15 14:12:11 14937 INFO  [main] - ****** Launching chrome browser *****
+2020-09-16 10:12:23 17331 INFO  [main] - ****** Launching chrome browser *****
+2020-09-16 10:28:28 7095 INFO  [main] - ****** Launching chrome browser *****
+2020-09-16 10:28:38 17005 INFO  [main] - ****** Open URL *****
+2020-09-16 11:43:11 8086 INFO  [main] - ****** Launching chrome browser *****
+2020-09-16 11:43:19 16662 INFO  [main] - ****** Open URL *****
+2020-09-16 11:45:55 6541 INFO  [main] - ****** Launching chrome browser *****
+2020-09-16 11:46:05 16675 INFO  [main] - ****** Open URL *****
+2020-09-16 11:48:02 7102 INFO  [main] - ****** Launching chrome browser *****
+2020-09-16 11:48:13 17829 INFO  [main] - ****** Open URL *****
+2020-09-16 11:48:13 18228 INFO  [main] - ****** Verify visibility of Join meeting Link *****
+2020-09-16 11:48:14 18934 INFO  [main] - ****** Navigate to join meeting window*****
+2020-09-16 11:49:43 6713 INFO  [main] - ****** Launching chrome browser *****
+2020-09-16 11:49:53 16006 INFO  [main] - ****** Open URL *****
+2020-09-16 11:49:53 16404 INFO  [main] - ****** Verify visibility of Join meeting Link *****
+2020-09-16 11:49:54 17029 INFO  [main] - ****** Navigate to join meeting window*****
+2020-09-16 11:51:53 6757 INFO  [main] - ****** Launching chrome browser *****
+2020-09-16 11:52:04 16880 INFO  [main] - ****** Open URL *****
+2020-09-16 11:52:04 17101 INFO  [main] - ****** Verify visibility of Join meeting Link *****
+2020-09-16 11:52:04 17518 INFO  [main] - ****** Navigate to join meeting window*****
+2020-09-16 11:53:15 6649 INFO  [main] - ****** Launching chrome browser *****
+2020-09-16 11:53:24 15548 INFO  [main] - ****** Open URL *****
+2020-09-16 11:53:24 15744 INFO  [main] - ****** Verify visibility of Join meeting Link *****
+2020-09-16 11:53:24 16212 INFO  [main] - ****** Navigate to join meeting window*****
