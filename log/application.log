@@ -30,6 +30,7 @@
 2020-09-10 22:26:11 68403 INFO  [main] - ****** Navigate to Sign In Page *****
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 2020-09-15 16:38:54 12228 INFO  [main] - ****** Launching chrome browser *****
 2020-09-15 16:54:12 6539 INFO  [main] - ****** Launching chrome browser *****
 =======
@@ -65,3 +66,16 @@
 2020-09-15 19:04:40 16292 INFO  [main] - entering appliction url and maximizing browser
 2020-09-15 19:07:03 19140 INFO  [main] - entering appliction url and maximizing browser
 >>>>>>> f159573e3230e018346bf868ac2a3a2b10ef9959
+=======
+2020-09-12 05:32:38 29412 INFO  [main] - entering appliction url and maximizing browser
+2020-09-12 05:32:39 30580 INFO  [main] - Verify Sign In link
+2020-09-13 06:46:06 31760 INFO  [main] - entering appliction url and maximizing browser
+2020-09-13 07:02:30 30542 INFO  [main] - entering appliction url and maximizing browser
+2020-09-13 07:04:32 29821 INFO  [main] - entering appliction url and maximizing browser
+2020-09-13 07:16:31 28281 INFO  [main] - entering appliction url and maximizing browser
+2020-09-13 07:19:57 39760 INFO  [main] - entering appliction url and maximizing browser
+2020-09-13 07:22:33 26567 INFO  [main] - entering appliction url and maximizing browser
+2020-09-13 07:26:30 30536 INFO  [main] - entering appliction url and maximizing browser
+2020-09-13 09:25:45 23877 INFO  [main] - entering appliction url and maximizing browser
+2020-09-13 09:27:59 13339 INFO  [main] - entering appliction url and maximizing browser
+>>>>>>> c95cf6f6d1bfdfdfb0b51970a9101491f341df53

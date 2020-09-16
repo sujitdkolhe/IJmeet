@@ -16,6 +16,11 @@ public class BaseClass {
 	@BeforeMethod
 	public static void baseTest() {
 		Keywords.openBrowser("Chrome");
+		
+		
+		
+		
+		
 		Keywords.launchURL(Utility.getProperty("BaseURL", propertiesFilepath));
 		Keywords.maximizeBrowser();
 		Keywords.loggerInfo("entering appliction url and maximizing browser");

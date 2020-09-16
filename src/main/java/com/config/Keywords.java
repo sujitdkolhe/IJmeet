@@ -19,6 +19,7 @@ import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -33,6 +34,7 @@ import ru.yandex.qatools.ashot.Screenshot;
 import ru.yandex.qatools.ashot.shooting.ShootingStrategies;
 
 public class Keywords {
+
 	/**
 	 * This method is used to open specific browser. Browser name should be as
 	 * follow :<br>
@@ -58,7 +60,7 @@ public class Keywords {
 			Constants.driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
 			break;
 		case "IE":
-			
+
 			Constants.driver = new InternetExplorerDriver();
 			Constants.driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
 			break;
@@ -134,7 +136,7 @@ public class Keywords {
 			break;
 		default:
 			System.err.println("Invalid Locator Type");
-			
+
 		}
 		return Constants.element;
 	}
@@ -161,11 +163,10 @@ public class Keywords {
 		Constants.action.moveToElement(Constants.element).perform();
 	}
 	/*
-	 * This method captures screenshot for the viewport using Yandex AShot
-	 * library and returns the Image
+	 * This method captures screenshot for the viewport using Yandex AShot library
+	 * and returns the Image
 	 * 
-	 * @Param:Accepts parameter the file-format in which we need the output
-	 * Image
+	 * @Param:Accepts parameter the file-format in which we need the output Image
 	 * 
 	 * @Param:Accepts parameter as the location in which we want to save the
 	 * screenshot taken
@@ -177,16 +178,13 @@ public class Keywords {
 		Screenshot sc = Constants.ashot.takeScreenshot(Constants.driver);
 		ImageIO.write(sc.getImage(), ImageFormatType, filepath);
 
-		
-
 	}
 
 	/*
-	 * This method will capture the screenshot for the entire web-page by
-	 * parsing it
+	 * This method will capture the screenshot for the entire web-page by parsing it
 	 * 
-	 * @Param:Accepts int value as parameter i.e. the time in milliseconds for
-	 * which the web-page will be parsed
+	 * @Param:Accepts int value as parameter i.e. the time in milliseconds for which
+	 * the web-page will be parsed
 	 * 
 	 * @Param:Accepts parameter as the type of Image we want i.e. JPG or PNG
 	 * 
@@ -201,29 +199,27 @@ public class Keywords {
 				.takeScreenshot(Constants.driver);
 		ImageIO.write(sc.getImage(), formatName, filepath);
 
-		
-
 	}
 
 	/*
-	 * This method will capture the screenshot for the WebElement of our
-	 * interest and which needs to be passed as a parameter
+	 * This method will capture the screenshot for the WebElement of our interest
+	 * and which needs to be passed as a parameter
 	 * 
 	 * @Param:Accepts WebElement as a parameter for which we want the screenshot
 	 * 
-	 * @Param:Accepts Image format as a parameter the type of format which we
-	 * want the image to be of
+	 * @Param:Accepts Image format as a parameter the type of format which we want
+	 * the image to be of
 	 * 
-	 * @Param:Accepts the parameter as location where we want our FileOutPut
-	 * Stream to be stored at
+	 * @Param:Accepts the parameter as location where we want our FileOutPut Stream
+	 * to be stored at
 	 */
-	public static void captureWebElementScreenshot(WebElement element, String formatName,
-			FileOutputStream filepath) throws IOException {
+	public static void captureWebElementScreenshot(WebElement element, String formatName, FileOutputStream filepath)
+			throws IOException {
 
 		Constants.ashot = new AShot();
 		Screenshot sc = Constants.ashot.takeScreenshot(Constants.driver, element);
 		ImageIO.write(sc.getImage(), formatName, filepath);
-		
+
 	}
 
 	/**
@@ -283,11 +279,11 @@ public class Keywords {
 		try {
 			Thread.sleep(time);
 		} catch (InterruptedException e) {
-			System.out.println("Timeout: "+e.getMessage());
+			System.out.println("Timeout: " + e.getMessage());
 			e.printStackTrace();
 		}
 	}
-	
+
 	/**
 	 * This method is used to read JSON file as expected.
 	 *
@@ -297,48 +293,51 @@ public class Keywords {
 	 * @author Sujit Kolhe
 	 * 
 	 */
-	public static void readJsonFile(String filePath,String key) {
+	public static void readJsonFile(String filePath, String key) {
 		try {
-			Constants.obj= new JSONParser().parse(new FileReader(filePath));
+			Constants.obj = new JSONParser().parse(new FileReader(filePath));
 		} catch (IOException | ParseException e) {
 			System.out.println("Unable to read file" + e.getMessage());
 			e.printStackTrace();
 		}
-		Constants.jsonObj=(JSONObject)Constants.obj;
-		Constants.jsonArray=(JSONArray)Constants.jsonObj.get(key);
-		System.out.println("Expected Size is:-"+Constants.jsonArray.size());	
+		Constants.jsonObj = (JSONObject) Constants.obj;
+		Constants.jsonArray = (JSONArray) Constants.jsonObj.get(key);
+		System.out.println("Expected Size is:-" + Constants.jsonArray.size());
 		Iterator itr = Constants.jsonArray.iterator();
-		while(itr.hasNext()) {
-			Constants.expected=(String) itr.next();
+		while (itr.hasNext()) {
+			Constants.expected = (String) itr.next();
 		}
 		Constants.expectedList = new ArrayList<String>();
-		String[] getList = new String[ Constants.jsonArray.size()];
-		for(int i=0;i<Constants.jsonArray.size();i++) {
-			getList[i]=(String)Constants.jsonArray.get(i);
-			Constants.expectedList.add(i,getList[i]);
+		String[] getList = new String[Constants.jsonArray.size()];
+		for (int i = 0; i < Constants.jsonArray.size(); i++) {
+			getList[i] = (String) Constants.jsonArray.get(i);
+			Constants.expectedList.add(i, getList[i]);
 		}
 	}
-	
+
 	/**
-     * This method will delete all the cookies for the current domain.
-     * @author Sujit Kolhe
-     * 
-     */
+	 * This method will delete all the cookies for the current domain.
+	 * 
+	 * @author Sujit Kolhe
+	 * 
+	 */
 	public static void deleteCookies() {
 		Constants.driver.manage().deleteAllCookies();
 	}
-	
+
 	/**
 	 * This method is used to highlight element.
+	 * 
 	 * @author Sujit Kolhe
 	 */
-    public static void highlightElement(String locatorType,String locatorValue ) {
-    	Constants.element= getWebElement(locatorType, locatorValue);
-    	JavascriptExecutor jse = (JavascriptExecutor)Constants.driver;
-    	jse.executeScript("arguments[0].setAttribute('style','background:yellow;border:2px solid red;');", Constants.element);
-    	jse.executeScript("arguments[0].setAttribute('style',border:solid 2px white')", Constants.element);
-    }
- 
+	public static void highlightElement(String locatorType, String locatorValue) {
+		Constants.element = getWebElement(locatorType, locatorValue);
+		JavascriptExecutor jse = (JavascriptExecutor) Constants.driver;
+		jse.executeScript("arguments[0].setAttribute('style','background:yellow;border:2px solid red;');",
+				Constants.element);
+		jse.executeScript("arguments[0].setAttribute('style',border:solid 2px white')", Constants.element);
+	}
+
 	/**
 	 * This method is used to Close the current window, quitting the browser if it's
 	 * the last window currently open.
@@ -352,7 +351,8 @@ public class Keywords {
 
 	/**
 	 * This method is used to quits this driver, closing every associated window.
-	 *  @author Sujit Kolhe
+	 * 
+	 * @author Sujit Kolhe
 	 * 
 	 */
 	public static void quiteDriver() {
@@ -360,28 +360,49 @@ public class Keywords {
 	}
 
 	/**
-	 * This method is used to select  value from dropdown.
+	 * This method is used to select value from dropdown.
 	 * 
 	 * @author Kapil Chavan
 	 * 
 	 */
-	
+
 	public static void selectValueFromDropdown(String locatorType, String locatorValue, String textToSelect) {
-		
+
 		WebElement element = getWebElement(locatorType, locatorValue);
 		Select select = new Select(element);
 		select.selectByVisibleText(textToSelect);
 	}
-	
-	
+
 	/**
 	 * This method is used to select the checkbox
+	 * 
 	 * @author Deepak Shitole
 	 * 
 	 */
 	public static void selectCheckbox(String locatorType, String locatorValue) {
-	
+
 		WebElement chkelement = getWebElement(locatorType, locatorValue);
 		chkelement.click();
+	}
+
+	public static void findNumberOfLinkPresent(WebElement element) throws InterruptedException
+	{
+		String parentWindow = Constants.driver.getWindowHandle();
+		WebElement subDriver = element;
+		for(int i=0; i<subDriver.findElements(By.tagName("a")).size();i++)
+		{
+			String clickOnTab = Keys.chord(Keys.CONTROL,Keys.ENTER);
+			subDriver.findElements(By.tagName("a")).get(i).sendKeys(clickOnTab);
+		}
+		Set <String> id=Constants.driver.getWindowHandles();
+		Iterator<String> itr = id.iterator();
+		while(itr.hasNext())
+		{
+			Constants.driver.switchTo().window(itr.next());
+		    System.out.println(Constants.driver.getTitle());
+		    System.out.println(Constants.driver.getCurrentUrl());
+		   Thread.sleep(4000);
+			Constants.driver.switchTo().window(parentWindow);
+		}
 	}
 }

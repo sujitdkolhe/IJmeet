@@ -3,13 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testRunner.TestRun">
+      <class name="com.ijmeet.testcases.HostMeetingTest">
         <methods>
-          <include name="setUpClass"/>
-          <include name="feature" invocation-numbers="0"/>
-          <include name="tearDownClass"/>
+          <include name="isFooterLinksClickable"/>
+          <include name="closeDriver"/>
+          <include name="baseTest"/>
+          <include name="clickOnHostMeeting"/>
         </methods>
-      </class> <!-- testRunner.TestRun -->
+      </class> <!-- com.ijmeet.testcases.HostMeetingTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
