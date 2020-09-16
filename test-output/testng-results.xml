@@ -2,13 +2,42 @@
 <testng-results skipped="0" failed="0" ignored="0" total="0" passed="0">
   <reporter-output>
   </reporter-output>
+<<<<<<< HEAD
   <suite name="Default suite" duration-ms="404" started-at="2020-09-15T19:15:27Z" finished-at="2020-09-15T19:15:28Z">
+=======
+<<<<<<< HEAD
+  <suite name="Default suite" duration-ms="72058" started-at="2020-08-23T23:41:51 IST" finished-at="2020-08-23T23:43:03 IST">
+=======
+  <suite name="Default suite" duration-ms="469" started-at="2020-09-10T14:19:39Z" finished-at="2020-09-10T14:19:39Z">
+>>>>>>> 4ffbe6e670a11c287fe3e62fca989cdb6c636d6b
+>>>>>>> d5ea5d6b92de38f5fe81c1fef781ba236d3da527
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRun@3b084709]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
+<<<<<<< HEAD
     <test name="Default test" duration-ms="404" started-at="2020-09-15T19:15:27Z" finished-at="2020-09-15T19:15:28Z">
+=======
+<<<<<<< HEAD
+    <test name="Default test" duration-ms="72058" started-at="2020-08-23T23:41:51 IST" finished-at="2020-08-23T23:43:03 IST">
+      <class name="com.ijmeet.testcases.LoginPageTest">
+        <test-method status="PASS" signature="baseTest()[pri:0, instance:com.ijmeet.testcases.LoginPageTest@7a1ebcd8]" name="baseTest" is-config="true" duration-ms="59850" started-at="2020-08-23T23:41:52 IST" finished-at="2020-08-23T23:42:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseTest -->
+        <test-method status="PASS" signature="tc_001()[pri:0, instance:com.ijmeet.testcases.LoginPageTest@7a1ebcd8]" name="tc_001" duration-ms="4026" started-at="2020-08-23T23:42:52 IST" finished-at="2020-08-23T23:42:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_001 -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.ijmeet.testcases.LoginPageTest@7a1ebcd8]" name="closeDriver" is-config="true" duration-ms="5781" started-at="2020-08-23T23:42:57 IST" finished-at="2020-08-23T23:43:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.ijmeet.testcases.LoginPageTest -->
+=======
+    <test name="Default test" duration-ms="469" started-at="2020-09-10T14:19:39Z" finished-at="2020-09-10T14:19:39Z">
+>>>>>>> d5ea5d6b92de38f5fe81c1fef781ba236d3da527
       <class name="testRunner.TestRun">
         <test-method status="FAIL" signature="setUpClass()[pri:0, instance:testRunner.TestRun@3b084709]" name="setUpClass" is-config="true" duration-ms="327" started-at="2020-09-15T19:15:27Z" finished-at="2020-09-15T19:15:28Z">
           <exception class="java.lang.NoSuchMethodError">
@@ -56,6 +85,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- testRunner.TestRun -->
+>>>>>>> 4ffbe6e670a11c287fe3e62fca989cdb6c636d6b
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

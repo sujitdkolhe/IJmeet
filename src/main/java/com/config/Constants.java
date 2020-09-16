@@ -11,6 +11,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
+import com.ijmeet.pageobject.HomePage;
 import com.ijmeet.pageobject.SignInPage;
 import ru.yandex.qatools.ashot.AShot;
 
@@ -31,5 +32,6 @@ public class Constants {
 	public static ExtentReports extent;
 	public static Logger logger;
 	public static SignInPage sip;
+	public static HomePage homepage;
 	public static AShot ashot;
 }
