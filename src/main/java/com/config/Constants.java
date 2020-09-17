@@ -2,7 +2,6 @@ package com.config;
 
 import java.util.ArrayList;
 import java.util.List;
-
 import org.apache.log4j.Logger;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
@@ -11,6 +10,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
+import com.ijmeet.pageobject.JoinMeetingPage;
 import com.ijmeet.pageobject.HomePage;
 import com.ijmeet.pageobject.SignInPage;
 import ru.yandex.qatools.ashot.AShot;
@@ -34,4 +34,7 @@ public class Constants {
 	public static SignInPage sip;
 	public static HomePage homepage;
 	public static AShot ashot;
-}
+	public static JoinMeetingPage jmp;
+
+	
+	}
