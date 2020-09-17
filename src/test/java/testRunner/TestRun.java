@@ -12,8 +12,8 @@ import io.cucumber.junit.CucumberOptions;
  */
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = ".//src/test/java/Features/SignIn.feature", glue = "stepDefination", monochrome = true, plugin = {
-		"pretty", "html:Report/ExtentsCucumberReport" })
+@CucumberOptions(features = ".//src/test/java/Features/", glue = "stepDefination", monochrome = true, plugin = {
+		"pretty", "html:Report/ExtentsCucumberReport.html" })
 public class TestRun extends AbstractTestNGCucumberTests{
 
 }
