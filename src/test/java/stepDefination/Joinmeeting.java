@@ -35,7 +35,7 @@ public class Joinmeeting {
 	@Then("Click on Join meeting")
 	public void click_on_join_meeting() {
 	    Constants.jmp=JoinMeetingPage.getJoinMeetingPage();
-	    Constants.jmp.clickOnJoin_Meeting();
+	    Constants.jmp.clickOnJoin_MeetingLink();
 	}
 
 	@Then("Navigate to Join meeting Window")
@@ -50,23 +50,31 @@ public class Joinmeeting {
 	}
 
 	@Then("user enters name {string}")
-	public void user_enters_name(String string) {
-		Keywords.enterText("XPATH", "//input[@id='username']", "Punam");
+	public void user_enters_name(String username) {
+		Constants.jmp=JoinMeetingPage.getJoinMeetingPage();
+		Constants.jmp.enterUserName(username);
+		//Keywords.enterText("XPATh", "//input[@id='username']", "Punam");
+		Keywords.loggerInfo("User Enter Value in user name fields");
 
 
 	}
 
 	@Then("user enters meeting id  {string}")
-	public void user_enters_meeting_id(String string) {
-		Keywords.enterText("XPATH", "//input[@id='meetingid']", "7732948");
+	public void user_enters_meeting_id(String id) {
+		Constants.jmp=JoinMeetingPage.getJoinMeetingPage();
+		Constants.jmp.enterMeetingId(id);
+		//Keywords.enterText("XPATH", "//input[@id='meetingid']", "7732948");
+		Keywords.loggerInfo("User enters meeting id");
 	    
 	}
 	@Then("click on join Meeting button")
 	public void click_on_join_meeting_button() {
-
-    Keywords.clickOnElement("XPATH", "//button[@id='before_start']");
+		Constants.jmp=JoinMeetingPage.getJoinMeetingPage();
+		Constants.jmp.click_OnJoinMeetingBtn();
+        //Keywords.clickOnElement("XPATH", "//button[@id='before_start']");
+		Keywords.loggerInfo("After Username and meeting_id user clicks on Join meeting button");
 	}
-
+  
 
 
 	
