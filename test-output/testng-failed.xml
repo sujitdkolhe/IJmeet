@@ -1,22 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test thread-count="5" name="Test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.ijmeet.testcases.HostMeetingTest">
+      <class name="testRunner.TestRun">
         <methods>
-<<<<<<< HEAD
+          <include name="runScenario" invocation-numbers="0"/>
           <include name="tearDownClass"/>
-          <include name="tc_001"/>
           <include name="setUpClass"/>
-=======
-          <include name="isFooterLinksClickable"/>
-          <include name="closeDriver"/>
-          <include name="baseTest"/>
-          <include name="clickOnHostMeeting"/>
->>>>>>> c95cf6f6d1bfdfdfb0b51970a9101491f341df53
         </methods>
-      </class> <!-- com.ijmeet.testcases.HostMeetingTest -->
+      </class> <!-- testRunner.TestRun -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
