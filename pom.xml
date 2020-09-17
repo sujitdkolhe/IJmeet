@@ -16,7 +16,7 @@ http://maven.apache.org
 
 	<build>
 		<plugins>
-			
+
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
@@ -198,6 +198,11 @@ http://maven.apache.org
 			<groupId>io.cucumber</groupId>
 			<artifactId>cucumber-html</artifactId>
 			<version>0.2.7</version>
+		</dependency>
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-jvm-deps</artifactId>
+			<version>1.0.6</version>
 		</dependency>
 		<!--https://mvnrepository.com/artifact/net.masterthought/cucumber-reporting -->
 		<dependency>
