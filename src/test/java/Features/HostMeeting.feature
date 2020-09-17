@@ -9,7 +9,6 @@ Background:
    Then Click on "Host Meeting" Button
    Then Verify "Host Meeting Page" should be Open
 
-
 Scenario: Verify Links presents on "HostMeeting Footer Section"
    Given User is On "HostMeeting Page"
    When User move to Footer Section page and clicks on every Link Buttons present on Footer Section Links

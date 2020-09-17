@@ -42,7 +42,7 @@ public class SignInSteps {
 		Constants.logger = Logger.getLogger(BaseClass.class);
 		PropertyConfigurator.configure("log4j.properties");
 		Keywords.loggerInfo("****** Launching chrome browser *****");
-		Constants.extent.createTest("Launching chrome browser");
+		//Constants.extent.createTest("Launching chrome browser");
 	}
 
 	@When("User opens URL {string}")
@@ -61,7 +61,7 @@ public class SignInSteps {
 		Constants.sip.signInButtonVisibility();
 		Assert.assertTrue(true);
 		Keywords.loggerInfo("****** Verify visibility of Sign In button *****");
-		Constants.extent.createTest("Verify visibility of Sign In button");
+		//Constants.extent.createTest("Verify visibility of Sign In button");
 	}
 
 	@Then("Click on Sign In button")

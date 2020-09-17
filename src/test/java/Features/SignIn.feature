@@ -6,9 +6,6 @@ Feature: Verify Sign In page
     Then Verify visibility of Sign In button
     Then Click on Sign In button
     Then Navigate to Sign In Page
-    
-    
-    
 
   Scenario: Verify Sign In page fields
     Then user enters email address "Sujitghjuikgfgddhjddjkolhe@gmail.com"

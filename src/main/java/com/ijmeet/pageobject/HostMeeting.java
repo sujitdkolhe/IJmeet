@@ -11,18 +11,13 @@ import com.config.Keywords;
 import com.fasterxml.jackson.databind.deser.Deserializers.Base;
 
 public class HostMeeting {
-	
-	
-	
-	
-	
 	public HostMeeting(WebDriver driver) {
 		Constants.driver= driver;
 		PageFactory.initElements(driver,this);
 	}
+
 	@FindBy(className="collapse navbar-collapse float-right")
 	private WebElement TopMenuIteams;
-	
 	@FindBy(xpath = "//a[contains(@class,'navbar-brand font-weight-bold d-block')]//img")
 	private WebElement Logo;
 	@FindBy(xpath="//footer[@class='container cutomer-bottom-footer']")
