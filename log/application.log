@@ -109,6 +109,7 @@
 2020-09-16 11:53:24 15548 INFO  [main] - ****** Open URL *****
 2020-09-16 11:53:24 15744 INFO  [main] - ****** Verify visibility of Join meeting Link *****
 2020-09-16 11:53:24 16212 INFO  [main] - ****** Navigate to join meeting window*****
+<<<<<<< HEAD
 >>>>>>> 011492cbfd2fc423584740eb7065c1f43f62acf3
 =======
 2020-09-15 19:39:30 11662 INFO  [main] - ****** Launching chrome browser *****
@@ -376,3 +377,39 @@
 2020-09-17 13:18:01 206733 INFO  [main] - ****** Open URL *****
 2020-09-17 13:18:01 206876 INFO  [main] - Verified Visibility of Sign Up Button
 >>>>>>> 43a300f945ec3eed08b5a18846819672d5409301
+=======
+2020-09-16 19:35:25 10448 INFO  [main] - ****** Launching chrome browser *****
+2020-09-16 19:35:35 20676 INFO  [main] - ****** Open URL *****
+2020-09-16 19:35:36 21397 INFO  [main] - ****** Verify visibility of Join meeting Link *****
+2020-09-16 19:35:36 22015 INFO  [main] - ****** Navigate to join meeting window*****
+2020-09-16 19:36:58 7887 INFO  [main] - ****** Launching chrome browser *****
+2020-09-16 19:37:12 22472 INFO  [main] - ****** Open URL *****
+2020-09-16 19:37:13 23037 INFO  [main] - ****** Verify visibility of Join meeting Link *****
+2020-09-16 19:37:14 23835 INFO  [main] - ****** Navigate to join meeting window*****
+2020-09-16 20:11:40 7157 INFO  [main] - ****** Launching chrome browser *****
+2020-09-16 20:11:52 19669 INFO  [main] - ****** Open URL *****
+2020-09-16 20:11:53 19984 INFO  [main] - ****** Verify visibility of Join meeting Link *****
+2020-09-16 20:11:53 20569 INFO  [main] - ****** Navigate to join meeting window*****
+2020-09-16 20:12:26 7247 INFO  [main] - ****** Launching chrome browser *****
+2020-09-16 20:12:38 19954 INFO  [main] - ****** Open URL *****
+2020-09-16 20:12:39 20294 INFO  [main] - ****** Verify visibility of Join meeting Link *****
+2020-09-16 20:12:40 21409 INFO  [main] - ****** Navigate to join meeting window*****
+2020-09-16 20:28:04 7054 INFO  [main] - ****** Launching chrome browser *****
+2020-09-16 20:28:16 18623 INFO  [main] - ****** Open URL *****
+2020-09-16 20:28:16 18872 INFO  [main] - ****** Verify visibility of Join meeting Link *****
+2020-09-16 20:28:17 19569 INFO  [main] - ****** Navigate to join meeting window*****
+2020-09-17 12:07:02 8046 INFO  [main] - ****** Launching chrome browser *****
+2020-09-17 12:07:14 19810 INFO  [main] - ****** Open URL *****
+2020-09-17 12:07:14 19993 INFO  [main] - ****** Verify visibility of Join meeting Link *****
+2020-09-17 12:07:15 20567 INFO  [main] - ****** Navigate to join meeting window*****
+2020-09-17 12:07:15 21215 INFO  [main] - User Enter Value in user name fields
+2020-09-17 12:07:16 21360 INFO  [main] - User enters meeting id
+2020-09-17 12:07:16 21471 INFO  [main] - After Username and meeting_id user clicks on Join meeting button
+2020-09-17 12:10:13 6260 INFO  [main] - ****** Launching chrome browser *****
+2020-09-17 12:10:23 16221 INFO  [main] - ****** Open URL *****
+2020-09-17 12:10:23 16426 INFO  [main] - ****** Verify visibility of Join meeting Link *****
+2020-09-17 12:10:23 16957 INFO  [main] - ****** Navigate to join meeting window*****
+2020-09-17 12:10:24 17691 INFO  [main] - User Enter Value in user name fields
+2020-09-17 12:10:24 17840 INFO  [main] - User enters meeting id
+2020-09-17 12:10:24 17987 INFO  [main] - After Username and meeting_id user clicks on Join meeting button
+>>>>>>> 8ec8c1699146eafeb7d248f3cb6eadac36efdf6d
