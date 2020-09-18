@@ -18,21 +18,23 @@ import io.cucumber.java.Before;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+
 //@Listeners(TestListener.class)
 public class SignInSteps {
 	
-//	@Before
-//	public void openBrowser() {
-//		Keywords.openBrowser("Chrome");
-//		Keywords.maximizeBrowser();
-//		Keywords.loggerInfo("****** Launching chrome browser *****");
-//		Constants.extent.createTest("Launching chrome browser");
-//	}
-//
-//	@After
-//	public void closeBrowser() {
-//		Keywords.closeBrowser();
-//	}
+	@Before
+	public void openBrowser() {
+		Keywords.openBrowser("Chrome");
+		Keywords.maximizeBrowser();
+		Keywords.loggerInfo("****** Launching chrome browser *****");
+		Constants.extent.createTest("Launching chrome browser");
+	}
+
+	@After
+	public void closeBrowser() {
+		Keywords.closeBrowser();
+	    Keywords.quiteDriver();
+	}
 
 	@Given("User launch chrome browser")
 	public void user_launch_chrome_browser() {

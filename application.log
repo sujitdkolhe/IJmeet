@@ -1,8 +1,14 @@
 2020-08-23 18:04:10 81454 INFO  [main] - Verify Sign In link
 <<<<<<< HEAD
+<<<<<<< HEAD
 2020-08-23 23:33:25 36089 INFO  [main] - Verify Sign In link
 2020-08-23 23:42:56 4341 INFO  [main] - Verify Sign In link
 2020-08-24 21:00:25 2968 INFO  [main] - Verify Sign In link
 =======
 2020-08-24 14:17:02 31911 INFO  [main] - Verify Sign In link
 >>>>>>> f159573e3230e018346bf868ac2a3a2b10ef9959
+=======
+2020-08-23 23:33:25 36089 INFO  [main] - Verify Sign In link
+2020-08-23 23:42:56 4341 INFO  [main] - Verify Sign In link
+2020-08-24 21:00:25 2968 INFO  [main] - Verify Sign In link
+>>>>>>> 43a300f945ec3eed08b5a18846819672d5409301
