@@ -15,5 +15,4 @@ import io.cucumber.testng.CucumberOptions;
 @CucumberOptions(features = "./src/test/java/Features/SignIn.feature", glue = "stepDefination",
 monochrome = true,  plugin = {"pretty", "html:Report/ExtentsCucumberReport" })
 public class TestRun extends AbstractTestNGCucumberTests{
-	
 }
