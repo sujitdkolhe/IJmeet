@@ -22,24 +22,25 @@ import io.cucumber.java.en.When;
 //@Listeners(TestListener.class)
 public class SignInSteps {
 	
-	@Before
-	public void openBrowser() {
-		Keywords.openBrowser("Chrome");
-		Keywords.maximizeBrowser();
-		Keywords.loggerInfo("****** Launching chrome browser *****");
-		Constants.extent.createTest("Launching chrome browser");
-	}
-
-	@After
-	public void closeBrowser() {
-		Keywords.closeBrowser();
-	    Keywords.quiteDriver();
-	}
+//	@Before
+//	public void openBrowser() {
+//		Keywords.openBrowser("Chrome");
+//		Keywords.maximizeBrowser();
+//		Keywords.loggerInfo("****** Launching chrome browser *****");
+//		Constants.extent.createTest("Launching chrome browser");
+//	}
+//
+//	@After
+//	public void closeBrowser() {
+//		Keywords.closeBrowser();
+//	    Keywords.quiteDriver();
+//	}
 
 	@Given("User launch chrome browser")
-	public void user_launch_chrome_browser() {
+	public void user_launch_chrome_browser() throws InterruptedException {
 		Keywords.openBrowser("Chrome");
 		Keywords.maximizeBrowser();
+		Thread.sleep(5000);
 		Keywords.loggerInfo("****** Launching chrome browser *****");
 		//Constants.extent.createTest("Launching chrome browser");
 	}
