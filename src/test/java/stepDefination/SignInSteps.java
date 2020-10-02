@@ -37,10 +37,10 @@ public class SignInSteps {
 //	}
 
 	@Given("User launch chrome browser")
-	public void user_launch_chrome_browser() throws InterruptedException {
+	public void user_launch_chrome_browser() {
 		Keywords.openBrowser("Chrome");
 		Keywords.maximizeBrowser();
-		Thread.sleep(5000);
+		
 		Keywords.loggerInfo("****** Launching chrome browser *****");
 		//Constants.extent.createTest("Launching chrome browser");
 	}
