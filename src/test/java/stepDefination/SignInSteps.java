@@ -19,6 +19,7 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
+//@Listeners(TestListener.class)
 public class SignInSteps {
 	
 //	@Before
@@ -32,15 +33,14 @@ public class SignInSteps {
 //	@After
 //	public void closeBrowser() {
 //		Keywords.closeBrowser();
+//	    Keywords.quiteDriver();
 //	}
 
 	@Given("User launch chrome browser")
 	public void user_launch_chrome_browser() {
 		Keywords.openBrowser("Chrome");
 		Keywords.maximizeBrowser();
-		Keywords.loggerInfo("entering appliction url and maximizing browser");
-		Constants.logger = Logger.getLogger(BaseClass.class);
-		PropertyConfigurator.configure("log4j.properties");
+		
 		Keywords.loggerInfo("****** Launching chrome browser *****");
 		//Constants.extent.createTest("Launching chrome browser");
 	}
@@ -52,7 +52,7 @@ public class SignInSteps {
 		String expectedUrl = "https://ijmeet.com/";
 		Assert.assertEquals(Constants.actual, expectedUrl);
 		Keywords.loggerInfo("****** Open URL *****");
-		Constants.extent.createTest("Open URL");
+		//Constants.extent.createTest("Open URL");
 	}
 
 	@Then("Verify visibility of Sign In button")
@@ -84,8 +84,8 @@ public class SignInSteps {
 	public void user_enters_email_address(String emailAddress) {
 		Constants.sip = SignInPage.getSignInPage();
 		Constants.sip.enterEmailAddress(emailAddress);
-		//Keywords.loggerInfo("****** Enter more than 30 character in Email Address textbox *****");
-		Constants.extent.createTest("user enters email address");
+		Keywords.loggerInfo("****** Enter more than 30 character in Email Address textbox *****");
+		//Constants.extent.createTest("user enters email address");
 	}
 
 	@Then("user enters password {string}")
@@ -93,7 +93,7 @@ public class SignInSteps {
 		Constants.sip = SignInPage.getSignInPage();
 		Constants.sip.enterPassword(password);
 		Keywords.loggerInfo("****** Enter more than 30 character in Password textbox *****");
-		// Constants.extent.createTest("user enters password");
+		//Constants.extent.createTest("user enters password");
 	}
 
 }
