@@ -1,5 +1,6 @@
 package com.config;
 
+import java.io.FileInputStream;
 import java.util.ArrayList;
 import java.util.List;
 import org.apache.log4j.Logger;
@@ -37,4 +38,5 @@ public class Constants {
 	public static HomePage homepage;
 	public static AShot ashot;
 	public static JoinMeetingPage jmp;
+	public static FileInputStream fis;
 }

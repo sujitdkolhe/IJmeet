@@ -7,16 +7,13 @@
 	<artifactId>IJmeet</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>IJmeet</name>
-	<url>
-http://maven.apache.org
-</url>
+	<url>http://maven.apache.org</url>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
 	<build>
 		<plugins>
-
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
@@ -31,7 +28,7 @@ http://maven.apache.org
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>2.19.1</version>
 				<configuration>
-					<source>1.8</source>
+				 	<source>1.8</source>
 					<target>1.8</target>
 				</configuration>
 			</plugin>
@@ -128,7 +125,7 @@ http://maven.apache.org
 		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-picocontainer -->
 		<dependency>
 			<groupId>io.cucumber</groupId>
-			<artifactId>cucumber-picocontainer</artifactId>
+			<artifactId>cucumber-picocontainer</artifactId> 
 			<version>6.4.0</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-testng -->
@@ -186,3 +183,4 @@ http://maven.apache.org
 		</dependency>
 	</dependencies>
 </project>
+ 

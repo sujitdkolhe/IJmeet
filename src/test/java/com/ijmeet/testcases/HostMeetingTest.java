@@ -19,7 +19,6 @@ public class HostMeetingTest extends BaseClass {
 
 	@Test
 	public void isFooterLinksClickable() {
-
 		host.getFooterLink();
 	}
 

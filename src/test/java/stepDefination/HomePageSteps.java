@@ -98,7 +98,7 @@ public class HomePageSteps {
 	@Then("verify clickability of Sign In Button")
 	public void verify_clickability_of_sign_in_button() {
 		Constants.sip = SignInPage.getSignInPage();
-		Constants.sip.clickOnSign();
+		Constants.sip.clickOnSignIn();
 		Assert.assertEquals(Constants.driver.getCurrentUrl(), "https://ijmeet.com/login");
 		Keywords.loggerInfo("Verified Clickability of Sign In Button");
 		// Constants.extent.createTest("Verified clickability of Sign In Button");

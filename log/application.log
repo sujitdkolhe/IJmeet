@@ -1,0 +1,319 @@
+2020-10-02 09:06:11 5257 INFO  [main] - ****** Launching chrome browser *****
+2020-10-02 09:06:19 13109 INFO  [main] - ****** Open URL *****
+2020-10-02 09:06:19 13282 INFO  [main] - ****** Verify visibility of Sign In button *****
+2020-10-02 09:06:20 14649 INFO  [main] - ****** Navigate to Sign In Page *****
+2020-10-02 09:06:20 14818 INFO  [main] - ****** Enter more than 30 character in Email Address textbox *****
+2020-10-02 09:06:20 14964 INFO  [main] - ****** Enter more than 30 character in Password textbox *****
+2020-10-06 13:28:04 13429 INFO  [main] - ****** Launching chrome browser *****
+2020-10-06 13:30:42 17603 INFO  [main] - ****** Launching chrome browser *****
+2020-10-06 13:39:50 6272 INFO  [main] - ****** Launching chrome browser *****
+2020-10-06 13:39:59 15946 INFO  [main] - ****** Open URL *****
+2020-10-06 13:40:00 16414 INFO  [main] - ****** Verify visibility of Sign In button *****
+2020-10-06 13:40:03 19756 INFO  [main] - ****** Navigate to Sign In Page *****
+2020-10-06 13:46:18 6017 INFO  [main] - ****** Launching chrome browser *****
+2020-10-06 13:46:37 25257 INFO  [main] - ****** Open URL *****
+2020-10-06 13:46:37 25398 INFO  [main] - ****** Verify visibility of Sign In button *****
+2020-10-06 13:46:40 27797 INFO  [main] - ****** Navigate to Sign In Page *****
+2020-10-06 13:52:40 12059 INFO  [main] - ****** Launching chrome browser *****
+2020-10-06 13:52:52 24372 INFO  [main] - ****** Open URL *****
+2020-10-06 13:52:53 24597 INFO  [main] - ****** Verify visibility of Sign In button *****
+2020-10-06 13:52:54 26314 INFO  [main] - ****** Navigate to Sign In Page *****
+2020-10-06 13:52:55 27447 INFO  [main] - ****** Enter more than 30 character in Email Address textbox *****
+2020-10-06 13:52:56 27606 INFO  [main] - ****** Enter more than 30 character in Password textbox *****
+2020-10-07 12:55:27 5963 INFO  [main] - ****** Launching chrome browser *****
+2020-10-07 12:55:33 11843 INFO  [main] - ****** Open URL *****
+2020-10-07 12:55:34 12736 INFO  [main] - ****** Verify visibility of Sign In button *****
+2020-10-07 12:55:35 13938 INFO  [main] - ****** Navigate to Sign In Page *****
+2020-10-07 12:55:35 14291 INFO  [main] - ****** Enter more than 30 character in Email Address textbox *****
+2020-10-07 12:55:36 14448 INFO  [main] - ****** Enter more than 30 character in Password textbox *****
+2020-10-07 12:55:36 14810 INFO  [main] - Exporting webdriver.chrome.driver as C:\Users\SUJITDK\.m2\repository\webdriver\chromedriver\win32\86.0.4240.22\chromedriver.exe
+2020-10-07 12:55:39 18216 INFO  [main] - ****** Launching chrome browser *****
+2020-10-07 12:55:47 26233 INFO  [main] - ****** Open URL *****
+2020-10-07 12:55:48 26779 INFO  [main] - Exporting webdriver.chrome.driver as C:\Users\SUJITDK\.m2\repository\webdriver\chromedriver\win32\86.0.4240.22\chromedriver.exe
+2020-10-07 12:55:52 31004 INFO  [main] - ****** Launching chrome browser *****
+2020-10-07 12:56:01 39734 INFO  [main] - ****** Open URL *****
+2020-10-07 12:56:01 40307 INFO  [main] - Exporting webdriver.chrome.driver as C:\Users\SUJITDK\.m2\repository\webdriver\chromedriver\win32\86.0.4240.22\chromedriver.exe
+2020-10-07 12:56:06 45256 INFO  [main] - ****** Launching chrome browser *****
+2020-10-07 12:56:17 56094 INFO  [main] - ****** Open URL *****
+2020-10-07 13:03:00 5022 INFO  [main] - ****** Launching chrome browser *****
+2020-10-07 13:03:05 9745 INFO  [main] - ****** Open URL *****
+2020-10-07 13:03:05 9921 INFO  [main] - ****** Verify visibility of Sign In button *****
+2020-10-07 13:03:06 10675 INFO  [main] - ****** Navigate to Sign In Page *****
+2020-10-07 13:03:06 10948 INFO  [main] - ****** Enter more than 30 character in Email Address textbox *****
+2020-10-07 13:03:06 11119 INFO  [main] - ****** Enter more than 30 character in Password textbox *****
+2020-10-07 13:03:08 12384 INFO  [main] - Exporting webdriver.chrome.driver as C:\Users\SUJITDK\.m2\repository\webdriver\chromedriver\win32\86.0.4240.22\chromedriver.exe
+2020-10-07 13:03:11 15890 INFO  [main] - ****** Launching chrome browser *****
+2020-10-07 13:03:22 26281 INFO  [main] - ****** Open URL *****
+2020-10-07 13:03:23 27531 INFO  [main] - Exporting webdriver.chrome.driver as C:\Users\SUJITDK\.m2\repository\webdriver\chromedriver\win32\86.0.4240.22\chromedriver.exe
+2020-10-07 13:03:26 31024 INFO  [main] - ****** Launching chrome browser *****
+2020-10-07 13:03:34 38474 INFO  [main] - ****** Open URL *****
+2020-10-07 13:03:35 39684 INFO  [main] - Exporting webdriver.chrome.driver as C:\Users\SUJITDK\.m2\repository\webdriver\chromedriver\win32\86.0.4240.22\chromedriver.exe
+2020-10-07 13:03:38 43217 INFO  [main] - ****** Launching chrome browser *****
+2020-10-07 13:03:46 51036 INFO  [main] - ****** Open URL *****
+2020-10-07 13:10:37 4986 INFO  [main] - ****** Launching chrome browser *****
+2020-10-07 13:10:44 11317 INFO  [main] - ****** Open URL *****
+2020-10-07 13:10:44 11473 INFO  [main] - ****** Verify visibility of Sign In button *****
+2020-10-07 13:10:46 13554 INFO  [main] - ****** Navigate to Sign In Page *****
+2020-10-07 13:10:46 13742 INFO  [main] - ****** Enter more than 30 character in Email Address textbox *****
+2020-10-07 13:10:46 13904 INFO  [main] - ****** Enter more than 30 character in Password textbox *****
+2020-10-07 13:10:47 15116 INFO  [main] - Exporting webdriver.chrome.driver as C:\Users\SUJITDK\.m2\repository\webdriver\chromedriver\win32\86.0.4240.22\chromedriver.exe
+2020-10-07 13:10:51 18556 INFO  [main] - ****** Launching chrome browser *****
+2020-10-07 13:10:57 25109 INFO  [main] - ****** Open URL *****
+2020-10-07 13:10:59 26338 INFO  [main] - Exporting webdriver.chrome.driver as C:\Users\SUJITDK\.m2\repository\webdriver\chromedriver\win32\86.0.4240.22\chromedriver.exe
+2020-10-07 13:11:02 30164 INFO  [main] - ****** Launching chrome browser *****
+2020-10-07 13:11:08 35306 INFO  [main] - ****** Open URL *****
+2020-10-07 13:11:09 36906 INFO  [main] - Exporting webdriver.chrome.driver as C:\Users\SUJITDK\.m2\repository\webdriver\chromedriver\win32\86.0.4240.22\chromedriver.exe
+2020-10-07 13:11:13 40633 INFO  [main] - ****** Launching chrome browser *****
+2020-10-07 13:11:19 46576 INFO  [main] - ****** Open URL *****
+2020-10-07 13:14:01 4667 INFO  [main] - ****** Launching chrome browser *****
+2020-10-07 13:14:07 10791 INFO  [main] - ****** Open URL *****
+2020-10-07 13:14:08 10948 INFO  [main] - ****** Verify visibility of Sign In button *****
+2020-10-07 13:14:08 11745 INFO  [main] - ****** Navigate to Sign In Page *****
+2020-10-07 13:14:09 12844 INFO  [main] - Exporting webdriver.chrome.driver as C:\Users\SUJITDK\.m2\repository\webdriver\chromedriver\win32\86.0.4240.22\chromedriver.exe
+2020-10-07 13:14:13 16393 INFO  [main] - ****** Launching chrome browser *****
+2020-10-07 13:14:20 23364 INFO  [main] - ****** Open URL *****
+2020-10-07 13:14:21 24469 INFO  [main] - Exporting webdriver.chrome.driver as C:\Users\SUJITDK\.m2\repository\webdriver\chromedriver\win32\86.0.4240.22\chromedriver.exe
+2020-10-07 13:14:25 28140 INFO  [main] - ****** Launching chrome browser *****
+2020-10-07 13:14:31 34726 INFO  [main] - ****** Open URL *****
+2020-10-07 13:14:33 35954 INFO  [main] - Exporting webdriver.chrome.driver as C:\Users\SUJITDK\.m2\repository\webdriver\chromedriver\win32\86.0.4240.22\chromedriver.exe
+2020-10-07 13:14:36 39825 INFO  [main] - ****** Launching chrome browser *****
+2020-10-07 13:14:44 47404 INFO  [main] - ****** Open URL *****
+2020-10-07 13:23:22 5295 INFO  [main] - ****** Launching chrome browser *****
+2020-10-07 13:23:29 12370 INFO  [main] - ****** Open URL *****
+2020-10-07 13:23:30 12557 INFO  [main] - ****** Verify visibility of Sign In button *****
+2020-10-07 13:23:30 13247 INFO  [main] - ****** Navigate to Sign In Page *****
+2020-10-07 13:23:32 14709 INFO  [main] - Exporting webdriver.chrome.driver as C:\Users\SUJITDK\.m2\repository\webdriver\chromedriver\win32\86.0.4240.22\chromedriver.exe
+2020-10-07 13:23:35 18183 INFO  [main] - ****** Launching chrome browser *****
+2020-10-07 13:23:40 23385 INFO  [main] - ****** Open URL *****
+2020-10-07 13:23:42 24798 INFO  [main] - Exporting webdriver.chrome.driver as C:\Users\SUJITDK\.m2\repository\webdriver\chromedriver\win32\86.0.4240.22\chromedriver.exe
+2020-10-07 13:23:45 28381 INFO  [main] - ****** Launching chrome browser *****
+2020-10-07 13:23:54 36989 INFO  [main] - ****** Open URL *****
+2020-10-07 13:23:55 38354 INFO  [main] - Exporting webdriver.chrome.driver as C:\Users\SUJITDK\.m2\repository\webdriver\chromedriver\win32\86.0.4240.22\chromedriver.exe
+2020-10-07 13:23:59 41886 INFO  [main] - ****** Launching chrome browser *****
+2020-10-07 13:24:06 48478 INFO  [main] - ****** Open URL *****
+2020-10-07 13:25:49 4735 INFO  [main] - ****** Launching chrome browser *****
+2020-10-07 13:25:55 10595 INFO  [main] - ****** Open URL *****
+2020-10-07 13:25:55 10789 INFO  [main] - ****** Verify visibility of Sign In button *****
+2020-10-07 13:25:56 11606 INFO  [main] - ****** Navigate to Sign In Page *****
+2020-10-07 13:25:57 12819 INFO  [main] - Exporting webdriver.chrome.driver as C:\Users\SUJITDK\.m2\repository\webdriver\chromedriver\win32\86.0.4240.22\chromedriver.exe
+2020-10-07 13:26:00 16326 INFO  [main] - ****** Launching chrome browser *****
+2020-10-07 13:26:06 22142 INFO  [main] - ****** Open URL *****
+2020-10-07 13:26:07 23470 INFO  [main] - Exporting webdriver.chrome.driver as C:\Users\SUJITDK\.m2\repository\webdriver\chromedriver\win32\86.0.4240.22\chromedriver.exe
+2020-10-07 13:26:11 27581 INFO  [main] - ****** Launching chrome browser *****
+2020-10-07 13:26:20 35770 INFO  [main] - ****** Open URL *****
+2020-10-07 13:26:21 37125 INFO  [main] - Exporting webdriver.chrome.driver as C:\Users\SUJITDK\.m2\repository\webdriver\chromedriver\win32\86.0.4240.22\chromedriver.exe
+2020-10-07 13:26:25 40626 INFO  [main] - ****** Launching chrome browser *****
+2020-10-07 13:26:32 48349 INFO  [main] - ****** Open URL *****
+2020-10-07 13:33:24 5286 INFO  [main] - ****** Launching chrome browser *****
+2020-10-07 13:33:31 11884 INFO  [main] - ****** Open URL *****
+2020-10-07 13:33:31 12051 INFO  [main] - ****** Verify visibility of Sign In button *****
+2020-10-07 13:33:32 13099 INFO  [main] - ****** Navigate to Sign In Page *****
+2020-10-07 13:33:34 15182 INFO  [main] - Exporting webdriver.chrome.driver as C:\Users\SUJITDK\.m2\repository\webdriver\chromedriver\win32\86.0.4240.22\chromedriver.exe
+2020-10-07 13:33:38 18694 INFO  [main] - ****** Launching chrome browser *****
+2020-10-07 13:33:49 29747 INFO  [main] - ****** Open URL *****
+2020-10-07 13:33:50 30917 INFO  [main] - Exporting webdriver.chrome.driver as C:\Users\SUJITDK\.m2\repository\webdriver\chromedriver\win32\86.0.4240.22\chromedriver.exe
+2020-10-07 13:33:53 34325 INFO  [main] - ****** Launching chrome browser *****
+2020-10-07 13:33:59 39684 INFO  [main] - ****** Open URL *****
+2020-10-07 13:34:00 40880 INFO  [main] - Exporting webdriver.chrome.driver as C:\Users\SUJITDK\.m2\repository\webdriver\chromedriver\win32\86.0.4240.22\chromedriver.exe
+2020-10-07 13:34:03 44288 INFO  [main] - ****** Launching chrome browser *****
+2020-10-07 13:34:09 49909 INFO  [main] - ****** Open URL *****
+2020-10-07 13:48:38 5893 INFO  [main] - ****** Launching chrome browser *****
+2020-10-07 13:48:53 20697 INFO  [main] - ****** Open URL *****
+2020-10-07 13:48:53 20907 INFO  [main] - ****** Verify visibility of Sign In button *****
+2020-10-07 13:48:55 22063 INFO  [main] - ****** Navigate to Sign In Page *****
+2020-10-07 13:48:55 22586 INFO  [main] - ****** Enter more than 30 character in Email Address textbox *****
+2020-10-07 13:48:55 22780 INFO  [main] - ****** Enter more than 30 character in Password textbox *****
+2020-10-07 13:48:56 23209 INFO  [main] - Exporting webdriver.chrome.driver as C:\Users\SUJITDK\.m2\repository\webdriver\chromedriver\win32\86.0.4240.22\chromedriver.exe
+2020-10-07 13:48:59 26684 INFO  [main] - ****** Launching chrome browser *****
+2020-10-07 13:49:08 35924 INFO  [main] - ****** Open URL *****
+2020-10-07 13:49:09 36574 INFO  [main] - Exporting webdriver.chrome.driver as C:\Users\SUJITDK\.m2\repository\webdriver\chromedriver\win32\86.0.4240.22\chromedriver.exe
+2020-10-07 13:49:13 40590 INFO  [main] - ****** Launching chrome browser *****
+2020-10-07 13:49:34 61150 INFO  [main] - ****** Open URL *****
+2020-10-07 13:49:34 61519 INFO  [main] - Exporting webdriver.chrome.driver as C:\Users\SUJITDK\.m2\repository\webdriver\chromedriver\win32\86.0.4240.22\chromedriver.exe
+2020-10-07 13:49:51 78324 INFO  [main] - ****** Launching chrome browser *****
+2020-10-07 13:50:00 87856 INFO  [main] - ****** Open URL *****
+2020-10-07 13:54:35 7634 INFO  [main] - ****** Launching chrome browser *****
+2020-10-07 13:54:49 21401 INFO  [main] - ****** Open URL *****
+2020-10-07 13:54:49 21562 INFO  [main] - ****** Verify visibility of Sign In button *****
+2020-10-07 13:54:50 22475 INFO  [main] - ****** Navigate to Sign In Page *****
+2020-10-07 13:54:50 22724 INFO  [main] - ****** Enter more than 30 character in Email Address textbox *****
+2020-10-07 13:54:50 22878 INFO  [main] - ****** Enter more than 30 character in Password textbox *****
+2020-10-07 13:54:51 23484 INFO  [main] - Exporting webdriver.chrome.driver as C:\Users\SUJITDK\.m2\repository\webdriver\chromedriver\win32\86.0.4240.22\chromedriver.exe
+2020-10-07 13:54:54 26879 INFO  [main] - ****** Launching chrome browser *****
+2020-10-07 13:55:32 64215 INFO  [main] - ****** Open URL *****
+2020-10-07 13:55:37 69657 INFO  [main] - Exporting webdriver.chrome.driver as C:\Users\SUJITDK\.m2\repository\webdriver\chromedriver\win32\86.0.4240.22\chromedriver.exe
+2020-10-07 13:55:41 73158 INFO  [main] - ****** Launching chrome browser *****
+2020-10-07 13:56:15 107907 INFO  [main] - ****** Open URL *****
+2020-10-07 13:56:20 112689 INFO  [main] - Exporting webdriver.chrome.driver as C:\Users\SUJITDK\.m2\repository\webdriver\chromedriver\win32\86.0.4240.22\chromedriver.exe
+2020-10-07 13:56:24 116169 INFO  [main] - ****** Launching chrome browser *****
+2020-10-07 13:56:37 129734 INFO  [main] - ****** Open URL *****
+2020-10-07 14:08:57 5338 INFO  [main] - ****** Launching chrome browser *****
+2020-10-07 14:09:09 16690 INFO  [main] - ****** Open URL *****
+2020-10-07 14:09:09 16834 INFO  [main] - ****** Verify visibility of Sign In button *****
+2020-10-07 14:09:10 17416 INFO  [main] - ****** Navigate to Sign In Page *****
+2020-10-07 14:09:10 17843 INFO  [main] - ****** Enter more than 30 character in Email Address textbox *****
+2020-10-07 14:09:10 18092 INFO  [main] - ****** Enter more than 30 character in Password textbox *****
+2020-10-07 14:09:11 18593 INFO  [main] - Exporting webdriver.chrome.driver as C:\Users\SUJITDK\.m2\repository\webdriver\chromedriver\win32\86.0.4240.22\chromedriver.exe
+2020-10-07 14:09:14 22084 INFO  [main] - ****** Launching chrome browser *****
+2020-10-07 14:09:40 48170 INFO  [main] - ****** Open URL *****
+2020-10-07 14:09:45 52638 INFO  [main] - Exporting webdriver.chrome.driver as C:\Users\SUJITDK\.m2\repository\webdriver\chromedriver\win32\86.0.4240.22\chromedriver.exe
+2020-10-07 14:09:49 56879 INFO  [main] - ****** Launching chrome browser *****
+2020-10-07 14:10:04 71919 INFO  [main] - ****** Open URL *****
+2020-10-07 14:10:08 76300 INFO  [main] - Exporting webdriver.chrome.driver as C:\Users\SUJITDK\.m2\repository\webdriver\chromedriver\win32\86.0.4240.22\chromedriver.exe
+2020-10-07 14:10:13 80891 INFO  [main] - ****** Launching chrome browser *****
+2020-10-07 14:10:23 90540 INFO  [main] - ****** Open URL *****
+2020-10-07 14:20:24 6287 INFO  [main] - ****** Launching chrome browser *****
+2020-10-07 14:20:33 14870 INFO  [main] - ****** Open URL *****
+2020-10-07 14:20:33 15071 INFO  [main] - ****** Verify visibility of Sign In button *****
+2020-10-07 14:20:34 15858 INFO  [main] - ****** Navigate to Sign In Page *****
+2020-10-07 14:20:34 16240 INFO  [main] - ****** Enter more than 30 character in Email Address textbox *****
+2020-10-07 14:20:34 16479 INFO  [main] - ****** Enter more than 30 character in Password textbox *****
+2020-10-07 14:20:35 17228 INFO  [main] - Exporting webdriver.chrome.driver as C:\Users\SUJITDK\.m2\repository\webdriver\chromedriver\win32\86.0.4240.22\chromedriver.exe
+2020-10-07 14:20:39 20876 INFO  [main] - ****** Launching chrome browser *****
+2020-10-07 14:20:52 34291 INFO  [main] - ****** Open URL *****
+2020-10-07 14:20:53 34804 INFO  [main] - Exporting webdriver.chrome.driver as C:\Users\SUJITDK\.m2\repository\webdriver\chromedriver\win32\86.0.4240.22\chromedriver.exe
+2020-10-07 14:20:58 40474 INFO  [main] - ****** Launching chrome browser *****
+2020-10-07 14:21:57 99595 INFO  [main] - ****** Open URL *****
+2020-10-07 14:22:02 104401 INFO  [main] - Exporting webdriver.chrome.driver as C:\Users\SUJITDK\.m2\repository\webdriver\chromedriver\win32\86.0.4240.22\chromedriver.exe
+2020-10-07 14:22:06 108378 INFO  [main] - ****** Launching chrome browser *****
+2020-10-07 14:22:20 121712 INFO  [main] - ****** Open URL *****
+2020-10-07 14:30:35 6003 INFO  [main] - ****** Launching chrome browser *****
+2020-10-07 14:30:43 13697 INFO  [main] - ****** Open URL *****
+2020-10-07 14:30:43 13887 INFO  [main] - ****** Verify visibility of Sign In button *****
+2020-10-07 14:30:44 14841 INFO  [main] - ****** Navigate to Sign In Page *****
+2020-10-07 14:30:44 15145 INFO  [main] - ****** Enter more than 30 character in Email Address textbox *****
+2020-10-07 14:30:45 15311 INFO  [main] - ****** Enter more than 30 character in Password textbox *****
+2020-10-07 14:30:45 15680 INFO  [main] - Exporting webdriver.chrome.driver as C:\Users\SUJITDK\.m2\repository\webdriver\chromedriver\win32\86.0.4240.22\chromedriver.exe
+2020-10-07 14:30:49 19940 INFO  [main] - ****** Launching chrome browser *****
+2020-10-07 14:30:57 27847 INFO  [main] - ****** Open URL *****
+2020-10-07 14:30:58 28323 INFO  [main] - Exporting webdriver.chrome.driver as C:\Users\SUJITDK\.m2\repository\webdriver\chromedriver\win32\86.0.4240.22\chromedriver.exe
+2020-10-07 14:31:04 35155 INFO  [main] - ****** Launching chrome browser *****
+2020-10-07 14:31:18 48830 INFO  [main] - ****** Open URL *****
+2020-10-07 14:31:23 53281 INFO  [main] - Exporting webdriver.chrome.driver as C:\Users\SUJITDK\.m2\repository\webdriver\chromedriver\win32\86.0.4240.22\chromedriver.exe
+2020-10-07 14:31:27 57828 INFO  [main] - ****** Launching chrome browser *****
+2020-10-07 14:31:39 69418 INFO  [main] - ****** Open URL *****
+2020-10-07 15:10:48 9603 INFO  [main] - ****** Launching chrome browser *****
+2020-10-07 15:10:55 16053 INFO  [main] - ****** Open URL *****
+2020-10-07 15:10:55 16536 INFO  [main] - ****** Verify visibility of Sign In button *****
+2020-10-07 15:10:56 17360 INFO  [main] - ****** Navigate to Sign In Page *****
+2020-10-07 15:10:57 17703 INFO  [main] - ****** Enter more than 30 character in Email Address textbox *****
+2020-10-07 15:10:57 17931 INFO  [main] - ****** Enter more than 30 character in Password textbox *****
+2020-10-07 15:10:57 18607 INFO  [main] - Exporting webdriver.chrome.driver as C:\Users\SUJITDK\.m2\repository\webdriver\chromedriver\win32\86.0.4240.22\chromedriver.exe
+2020-10-07 15:11:02 22886 INFO  [main] - ****** Launching chrome browser *****
+2020-10-07 15:11:12 32758 INFO  [main] - ****** Open URL *****
+2020-10-07 15:11:14 35578 INFO  [main] - Exporting webdriver.chrome.driver as C:\Users\SUJITDK\.m2\repository\webdriver\chromedriver\win32\86.0.4240.22\chromedriver.exe
+2020-10-07 15:11:18 39551 INFO  [main] - ****** Launching chrome browser *****
+2020-10-07 15:11:48 69422 INFO  [main] - ****** Open URL *****
+2020-10-07 15:11:49 69958 INFO  [main] - Exporting webdriver.chrome.driver as C:\Users\SUJITDK\.m2\repository\webdriver\chromedriver\win32\86.0.4240.22\chromedriver.exe
+2020-10-07 15:11:57 78541 INFO  [main] - ****** Launching chrome browser *****
+2020-10-07 15:12:20 101199 INFO  [main] - ****** Open URL *****
+2020-10-07 17:35:03 6587 INFO  [main] - ****** Launching chrome browser *****
+2020-10-07 17:35:11 14646 INFO  [main] - ****** Open URL *****
+2020-10-07 17:35:11 14843 INFO  [main] - ****** Verify visibility of Sign In button *****
+2020-10-07 17:35:12 16071 INFO  [main] - ****** Navigate to Sign In Page *****
+2020-10-07 17:35:12 16322 INFO  [main] - ****** Enter more than 30 character in Email Address textbox *****
+2020-10-07 17:35:13 16748 INFO  [main] - ****** Enter more than 30 character in Password textbox *****
+2020-10-07 17:35:13 17170 INFO  [main] - Exporting webdriver.chrome.driver as C:\Users\SUJITDK\.m2\repository\webdriver\chromedriver\win32\86.0.4240.22\chromedriver.exe
+2020-10-07 17:35:17 21076 INFO  [main] - ****** Launching chrome browser *****
+2020-10-07 17:35:31 34520 INFO  [main] - ****** Open URL *****
+2020-10-07 17:35:31 35226 INFO  [main] - Exporting webdriver.chrome.driver as C:\Users\SUJITDK\.m2\repository\webdriver\chromedriver\win32\86.0.4240.22\chromedriver.exe
+2020-10-07 17:35:36 40349 INFO  [main] - ****** Launching chrome browser *****
+2020-10-07 17:35:49 52661 INFO  [main] - ****** Open URL *****
+2020-10-07 17:35:53 57153 INFO  [main] - Exporting webdriver.chrome.driver as C:\Users\SUJITDK\.m2\repository\webdriver\chromedriver\win32\86.0.4240.22\chromedriver.exe
+2020-10-07 17:35:59 62788 INFO  [main] - ****** Launching chrome browser *****
+2020-10-07 17:36:25 88788 INFO  [main] - ****** Open URL *****
+2020-10-07 17:41:08 5074 INFO  [main] - ****** Launching chrome browser *****
+2020-10-07 17:41:16 12472 INFO  [main] - ****** Open URL *****
+2020-10-07 17:41:16 12735 INFO  [main] - ****** Verify visibility of Sign In button *****
+2020-10-07 17:41:18 14256 INFO  [main] - ****** Navigate to Sign In Page *****
+2020-10-07 17:41:18 14419 INFO  [main] - ****** Enter more than 30 character in Email Address textbox *****
+2020-10-07 17:41:18 14551 INFO  [main] - ****** Enter more than 30 character in Password textbox *****
+2020-10-07 17:41:18 14993 INFO  [main] - Exporting webdriver.chrome.driver as C:\Users\SUJITDK\.m2\repository\webdriver\chromedriver\win32\86.0.4240.22\chromedriver.exe
+2020-10-07 17:41:22 18623 INFO  [main] - ****** Launching chrome browser *****
+2020-10-07 17:41:36 32181 INFO  [main] - ****** Open URL *****
+2020-10-07 17:41:36 32785 INFO  [main] - Exporting webdriver.chrome.driver as C:\Users\SUJITDK\.m2\repository\webdriver\chromedriver\win32\86.0.4240.22\chromedriver.exe
+2020-10-07 17:41:41 37237 INFO  [main] - ****** Launching chrome browser *****
+2020-10-07 17:42:11 67603 INFO  [main] - ****** Open URL *****
+2020-10-07 17:42:16 72126 INFO  [main] - Exporting webdriver.chrome.driver as C:\Users\SUJITDK\.m2\repository\webdriver\chromedriver\win32\86.0.4240.22\chromedriver.exe
+2020-10-07 17:42:21 77389 INFO  [main] - ****** Launching chrome browser *****
+2020-10-07 17:42:33 90026 INFO  [main] - ****** Open URL *****
+2020-10-13 17:40:28 8924 INFO  [main] - ****** Launching chrome browser *****
+2020-10-13 17:40:35 16502 INFO  [main] - ****** Open URL *****
+2020-10-13 17:40:36 17163 INFO  [main] - ****** Verify visibility of Sign In button *****
+2020-10-13 17:40:38 18593 INFO  [main] - ****** Navigate to Sign In Page *****
+2020-10-13 17:40:38 19050 INFO  [main] - ****** Enter more than 30 character in Email Address textbox *****
+2020-10-13 17:40:38 19328 INFO  [main] - ****** Enter more than 30 character in Password textbox *****
+2020-10-13 18:03:59 8538 INFO  [main] - ****** Launching chrome browser *****
+2020-10-13 18:04:24 32766 INFO  [main] - ****** Open URL *****
+2020-10-13 18:04:24 33264 INFO  [main] - ****** Verify visibility of Sign In button *****
+2020-10-13 18:04:25 33986 INFO  [main] - ****** Navigate to Sign In Page *****
+2020-10-13 18:04:25 34388 INFO  [main] - ****** Enter more than 30 character in Email Address textbox *****
+2020-10-13 18:04:25 34651 INFO  [main] - ****** Enter more than 30 character in Password textbox *****
+2020-10-13 18:07:15 7189 INFO  [main] - ****** Launching chrome browser *****
+2020-10-13 18:07:31 23491 INFO  [main] - ****** Open URL *****
+2020-10-13 18:07:31 23778 INFO  [main] - ****** Verify visibility of Sign In button *****
+2020-10-13 18:07:34 26736 INFO  [main] - ****** Navigate to Sign In Page *****
+2020-10-13 18:07:34 26905 INFO  [main] - ****** Enter more than 30 character in Email Address textbox *****
+2020-10-13 18:07:34 27059 INFO  [main] - ****** Enter more than 30 character in Password textbox *****
+2020-10-13 18:09:53 6958 INFO  [main] - ****** Launching chrome browser *****
+2020-10-13 18:10:00 13650 INFO  [main] - ****** Open URL *****
+2020-10-13 18:10:00 13837 INFO  [main] - ****** Verify visibility of Sign In button *****
+2020-10-13 18:10:02 15444 INFO  [main] - ****** Navigate to Sign In Page *****
+2020-10-13 18:10:02 15745 INFO  [main] - ****** Enter more than 30 character in Email Address textbox *****
+2020-10-13 18:10:02 15927 INFO  [main] - ****** Enter more than 30 character in Password textbox *****
+2020-10-13 18:14:13 5978 INFO  [main] - ****** Launching chrome browser *****
+2020-10-13 18:14:23 15289 INFO  [main] - ****** Open URL *****
+2020-10-13 18:14:23 15870 INFO  [main] - ****** Verify visibility of Sign In button *****
+2020-10-13 18:14:25 17184 INFO  [main] - ****** Navigate to Sign In Page *****
+2020-10-13 18:14:25 17408 INFO  [main] - ****** Enter more than 30 character in Email Address textbox *****
+2020-10-13 18:14:25 17672 INFO  [main] - ****** Enter more than 30 character in Password textbox *****
+2020-10-13 18:19:05 12498 INFO  [main] - ****** Launching chrome browser *****
+2020-10-13 18:19:16 23341 INFO  [main] - ****** Open URL *****
+2020-10-13 18:19:16 23523 INFO  [main] - ****** Verify visibility of Sign In button *****
+2020-10-13 18:19:17 24330 INFO  [main] - ****** Navigate to Sign In Page *****
+2020-10-13 18:19:17 24811 INFO  [main] - ****** Enter more than 30 character in Email Address textbox *****
+2020-10-13 18:19:17 25111 INFO  [main] - ****** Enter more than 30 character in Password textbox *****
+2020-10-13 19:56:59 9889 INFO  [main] - ****** Launching chrome browser *****
+2020-10-13 19:57:13 24362 INFO  [main] - ****** Open URL *****
+2020-10-13 19:57:14 24758 INFO  [main] - ****** Verify visibility of Sign In button *****
+2020-10-13 19:57:16 26925 INFO  [main] - ****** Navigate to Sign In Page *****
+2020-10-13 19:57:16 27425 INFO  [main] - ****** Enter more than 30 character in Email Address textbox *****
+2020-10-13 19:57:16 27616 INFO  [main] - ****** Enter more than 30 character in Password textbox *****
+2020-10-13 19:59:24 12015 INFO  [main] - ****** Launching chrome browser *****
+2020-10-13 19:59:35 23380 INFO  [main] - ****** Open URL *****
+2020-10-13 19:59:35 23571 INFO  [main] - ****** Verify visibility of Sign In button *****
+2020-10-13 19:59:37 24889 INFO  [main] - ****** Navigate to Sign In Page *****
+2020-10-13 19:59:37 25376 INFO  [main] - ****** Enter more than 30 character in Email Address textbox *****
+2020-10-13 19:59:37 25655 INFO  [main] - ****** Enter more than 30 character in Password textbox *****
+2020-10-13 19:59:38 26031 INFO  [main] - ****** User click on Remember me checkbox *****
+2020-10-13 20:38:55 12503 INFO  [main] - ****** Launching chrome browser *****
+2020-10-13 20:39:36 53200 INFO  [main] - ****** Open URL *****
+2020-10-13 20:39:36 53488 INFO  [main] - ****** Verify visibility of Sign In button *****
+2020-10-13 20:39:37 54174 INFO  [main] - ****** Navigate to Sign In Page *****
+2020-10-13 20:39:37 54448 INFO  [main] - ****** Enter more than 30 character in Email Address textbox *****
+2020-10-13 20:39:37 54696 INFO  [main] - ****** Enter more than 30 character in Password textbox *****
+2020-10-13 20:39:38 55082 INFO  [main] - ****** User click on Remember me checkbox *****
+2020-10-13 20:39:38 55434 INFO  [main] - ****** check Remember me than checkbox color *****
+2020-10-13 20:40:53 8581 INFO  [main] - ****** Launching chrome browser *****
+2020-10-13 20:41:03 18330 INFO  [main] - ****** Open URL *****
+2020-10-13 20:41:03 18545 INFO  [main] - ****** Verify visibility of Sign In button *****
+2020-10-13 20:41:04 19516 INFO  [main] - ****** Navigate to Sign In Page *****
+2020-10-13 20:41:05 19884 INFO  [main] - ****** Enter more than 30 character in Email Address textbox *****
+2020-10-13 20:41:05 20140 INFO  [main] - ****** Enter more than 30 character in Password textbox *****
+2020-10-13 20:41:05 20332 INFO  [main] - ****** User click on Remember me checkbox *****
+2020-10-13 20:43:19 18037 INFO  [main] - ****** Launching chrome browser *****
+2020-10-13 20:43:42 41017 INFO  [main] - ****** Open URL *****
+2020-10-13 20:43:42 41198 INFO  [main] - ****** Verify visibility of Sign In button *****
+2020-10-13 20:43:47 46375 INFO  [main] - ****** Navigate to Sign In Page *****
+2020-10-13 20:43:47 46603 INFO  [main] - ****** Enter more than 30 character in Email Address textbox *****
+2020-10-13 20:43:48 46787 INFO  [main] - ****** Enter more than 30 character in Password textbox *****
+2020-10-13 20:43:53 51925 INFO  [main] - ****** User click on Remember me checkbox *****
+2020-10-13 20:43:53 52188 INFO  [main] - ****** check Remember me than checkbox color *****
+2020-10-13 20:45:25 7313 INFO  [main] - ****** Launching chrome browser *****
+2020-10-13 20:45:31 13286 INFO  [main] - ****** Open URL *****
+2020-10-13 20:45:31 13454 INFO  [main] - ****** Verify visibility of Sign In button *****
+2020-10-13 20:45:32 14100 INFO  [main] - ****** Navigate to Sign In Page *****
+2020-10-13 20:45:32 14437 INFO  [main] - ****** Enter more than 30 character in Email Address textbox *****
+2020-10-13 20:45:33 14759 INFO  [main] - ****** Enter more than 30 character in Password textbox *****
+2020-10-13 20:45:38 20014 INFO  [main] - ****** User click on Remember me checkbox *****
+2020-10-13 20:45:38 20237 INFO  [main] - ****** check Remember me than checkbox color *****

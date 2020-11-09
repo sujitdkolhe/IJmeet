@@ -28,6 +28,8 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.Select;
+
+
 import io.github.bonigarcia.wdm.WebDriverManager;
 import ru.yandex.qatools.ashot.AShot;
 import ru.yandex.qatools.ashot.Screenshot;
@@ -60,7 +62,7 @@ public class Keywords {
 			Constants.driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
 			break;
 		case "IE":
-
+			WebDriverManager.iedriver().setup();
 			Constants.driver = new InternetExplorerDriver();
 			Constants.driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
 			break;
@@ -173,11 +175,9 @@ public class Keywords {
 	 */
 
 	public static void captureScreenshot(String ImageFormatType, FileOutputStream filepath) throws IOException {
-
 		Constants.ashot = new AShot();
 		Screenshot sc = Constants.ashot.takeScreenshot(Constants.driver);
 		ImageIO.write(sc.getImage(), ImageFormatType, filepath);
-
 	}
 
 	/*
@@ -219,7 +219,6 @@ public class Keywords {
 		Constants.ashot = new AShot();
 		Screenshot sc = Constants.ashot.takeScreenshot(Constants.driver, element);
 		ImageIO.write(sc.getImage(), formatName, filepath);
-
 	}
 
 	/**
@@ -372,6 +371,19 @@ public class Keywords {
 		Select select = new Select(element);
 		select.selectByVisibleText(textToSelect);
 	}
+	
+	/**
+	 * This method is used to get the value of a given CSS property. Color values
+	 * should be returned.
+	 * 
+	 * @param propertyName the css property name of the element
+	 * @return The current, computed value of the property.
+	 * 
+	 */
+	public static void getColor(String locatorType, String locatorValue, String propertyValue) {
+		Constants.element = getWebElement(locatorType, locatorValue);
+		Constants.actual = Constants.element.getCssValue(propertyValue);
+	}
 
 	/**
 	 * This method is used to select the checkbox
@@ -379,7 +391,7 @@ public class Keywords {
 	 * @author Deepak Shitole
 	 * 
 	 */
-	public static void selectCheckbox(String locatorType, String locatorValue) {
+	public static void selectCheckbox(String locatorType, String locatorValue) {
 
 		WebElement chkelement = getWebElement(locatorType, locatorValue);
 		chkelement.click();
@@ -404,5 +416,5 @@ public class Keywords {
 		   Thread.sleep(4000);
 			Constants.driver.switchTo().window(parentWindow);
 		}
-	}
+	} 
 }

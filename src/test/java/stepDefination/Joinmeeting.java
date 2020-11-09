@@ -74,10 +74,5 @@ public class Joinmeeting {
         //Keywords.clickOnElement("XPATH", "//button[@id='before_start']");
 		Keywords.loggerInfo("After Username and meeting_id user clicks on Join meeting button");
 	}
-  
-
-
-	
-
 
 }

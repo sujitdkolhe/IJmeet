@@ -6,9 +6,6 @@ Feature: Verify Home page
 
   Scenario: Verify IJmeet logo
     Then verify visibility of IJmeet logo
-<<<<<<< HEAD
-    Then verify clickability of IJmeet logo link
-=======
     Then verify clickability of IJmeet logo link
 
   Scenario: Verify Join Meeting Link
@@ -30,4 +27,3 @@ Feature: Verify Home page
   Scenario: Verify Sign Up Button
     Then verify visibility of Sign Up Button
     Then verify clickability of Sign Up Button
->>>>>>> 43a300f945ec3eed08b5a18846819672d5409301

@@ -11,6 +11,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 
+
 public class Utility {
 	/**
 	 * This method will open Object Repository Properties and return value associate with key
@@ -34,7 +35,19 @@ public class Utility {
 		}
 		return value;
 	}
-
+	public static String getProperty(String key) {
+		String value = null;
+		try {
+			Constants.fis = new FileInputStream("Input/amazonhome_pagepath.properties");
+			Properties p = new Properties();
+			p.load(Constants.fis);
+			value = p.getProperty(key);
+		} catch (IOException e) {
+			System.out.println("Unable to load Properties File");
+			e.printStackTrace();
+		}
+		return value;
+	}
 	public static String captureScreenshot(WebDriver driver, String fileName) {
 		TakesScreenshot ts = (TakesScreenshot) driver;
 		File src = ts.getScreenshotAs(OutputType.FILE);
